@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Android Component Library</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_basics">Basics</string>
+    <string name="title_advance">Advance</string>
+    <string name="title_DashBoard">Dashboard</string>
     <string name="Developed_BY">IOT LABS</string>
 </resources>

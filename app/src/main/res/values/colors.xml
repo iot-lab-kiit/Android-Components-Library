@@ -14,5 +14,5 @@
     <color name="logo_bg1">#FDFAF9</color>
     <color name="logo_bg2">#D90368</color>
     <color name="logo_bg3">#EADEDA</color>
-    <color name="logo_bg4">#272424</color>
+    <color name="text_main">#272424</color>
 </resources>
