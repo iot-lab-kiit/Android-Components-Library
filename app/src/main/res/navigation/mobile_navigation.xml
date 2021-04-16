@@ -7,19 +7,19 @@
 
     <fragment
         android:id="@+id/navigation_basic"
-        android:name="in.iot.lab.acl.ui.basic.BasicFragment"
+        android:name="in.iot.lab.acl.Basics"
         android:label="@string/title_basics"
         tools:layout="@layout/activity_basics" />
 
     <fragment
         android:id="@+id/navigation_advanced"
-        android:name="in.iot.lab.acl.ui.advanced.AdvancedFragment"
+        android:name="in.iot.lab.acl.Advanced"
         android:label="@string/title_advance"
         tools:layout="@layout/activity_advanced" />
 
     <fragment
         android:id="@+id/navigation_dashboard"
-        android:name="in.iot.lab.acl.ui.dashboard.DashboardFragment"
+        android:name="in.iot.lab.acl.DashBoard"
         android:label="@string/title_DashBoard"
         tools:layout="@layout/activity_dashboard" />
 </navigation>
