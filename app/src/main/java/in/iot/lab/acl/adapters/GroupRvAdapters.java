@@ -37,7 +37,7 @@ public class GroupRvAdapters extends RecyclerView.Adapter<GroupRvAdapters.GroupV
         String imgLoc = logo.get(position);
 
         holder.mTextView.setText(title);
-        holder.mImageView.setImageResource(R.drawable.text);
+//        holder.mImageView.setImageResource(R.drawable.text);
     }
 
     @Override
@@ -52,7 +52,7 @@ public class GroupRvAdapters extends RecyclerView.Adapter<GroupRvAdapters.GroupV
 
         public GroupViewHolder(@NonNull View itemView) {
             super(itemView);
-            mImageView = itemView.findViewById(R.id.group_image);
+//            mImageView = itemView.findViewById(R.id.group_image);
             mTextView = itemView.findViewById(R.id.group_title);
         }
     }
