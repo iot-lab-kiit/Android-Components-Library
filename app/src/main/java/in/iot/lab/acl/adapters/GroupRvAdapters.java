@@ -1,5 +1,7 @@
 package in.iot.lab.acl.adapters;
 
+import android.content.Context;
+import android.graphics.drawable.Drawable;
 import android.net.Uri;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -13,16 +15,24 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.ArrayList;
 
 import in.iot.lab.acl.R;
+import in.iot.lab.acl.utils.RvClickHandler;
 
 public class GroupRvAdapters extends RecyclerView.Adapter<GroupRvAdapters.GroupViewHolder> {
 
     ArrayList<String> group = new ArrayList<>();
     ArrayList<String> logo = new ArrayList<>();
+    Context context;
+    RvClickHandler mRvClickHandler;
 
-    public GroupRvAdapters(ArrayList<String> group, ArrayList<String> logo) {
+
+
+    public GroupRvAdapters(ArrayList<String> group, ArrayList<String> logo, Context context, RvClickHandler rvClickHandler) {
         this.group = group;
         this.logo = logo;
+        this.context=context;
+        mRvClickHandler=rvClickHandler;
     }
+
 
     @NonNull
     @Override
@@ -34,10 +44,13 @@ public class GroupRvAdapters extends RecyclerView.Adapter<GroupRvAdapters.GroupV
     @Override
     public void onBindViewHolder(@NonNull GroupViewHolder holder, int position) {
         String title = group.get(position);
-        String imgLoc = logo.get(position);
+        String imgLoc = "@drawable/acl_logo";
+        int imageResource= context.getResources().getIdentifier(imgLoc,null, context.getPackageName());
+        Drawable res=context.getResources().getDrawable(imageResource);
+
 
         holder.mTextView.setText(title);
-//        holder.mImageView.setImageResource(R.drawable.text);
+        holder.mImageView.setImageDrawable(res);
     }
 
     @Override
@@ -52,8 +65,14 @@ public class GroupRvAdapters extends RecyclerView.Adapter<GroupRvAdapters.GroupV
 
         public GroupViewHolder(@NonNull View itemView) {
             super(itemView);
-//            mImageView = itemView.findViewById(R.id.group_image);
+            mImageView = itemView.findViewById(R.id.group_image);
             mTextView = itemView.findViewById(R.id.group_title);
+            itemView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    mRvClickHandler.onItemClick(getAdapterPosition());
+                }
+            });
         }
     }
 }
