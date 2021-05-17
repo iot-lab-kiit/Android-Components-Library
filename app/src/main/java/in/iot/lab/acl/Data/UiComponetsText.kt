@@ -9,6 +9,7 @@ object UiComponetsText {
     init{
         text.add("Text View")
         text.add("Edit Text")
+        text.add("Toast")
     }
     @JvmName("getText1")
     fun getText():ArrayList<String>{
