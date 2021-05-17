@@ -12,6 +12,7 @@ public object UiComponetsGroups {
         groups.add("Widgets/Views")
         groups.add("Layouts")
         groups.add("Derived Components")
+        groups.add("Containers");
 
 
 

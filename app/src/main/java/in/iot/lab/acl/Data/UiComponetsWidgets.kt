@@ -19,7 +19,6 @@ object UiComponetsWidgets {
         views.add("Search View")
         views.add("Texture View")
         views.add("Surface View")
-        views.add("Seek Bar")
     }
 
     fun getWidgetsNames():ArrayList<String>{

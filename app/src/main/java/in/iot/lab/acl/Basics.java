@@ -3,6 +3,7 @@ package in.iot.lab.acl;
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.MenuItem;
 
 import androidx.annotation.NonNull;
@@ -19,6 +20,8 @@ import in.iot.lab.acl.data.UiComponetsGroups;
 import in.iot.lab.acl.utils.RvClickHandler;
 
 public class Basics extends AppCompatActivity implements RvClickHandler {
+    ArrayList<String> groups=new ArrayList<>();
+    ArrayList<String>logo=new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,8 +30,6 @@ public class Basics extends AppCompatActivity implements RvClickHandler {
 
         //Initialize and Assign variables
         BottomNavigationView bottomNavigationView=findViewById(R.id.nav_view);
-        ArrayList<String> groups=new ArrayList<>();
-        ArrayList<String>logo=new ArrayList<>();
         GroupRvAdapters groupRvAdapters;
         RecyclerView recyclerView=findViewById(R.id.basic_rv);
 
@@ -71,6 +72,13 @@ public class Basics extends AppCompatActivity implements RvClickHandler {
 
     @Override
     public void onItemClick(int position) {
+        Log.d("intent", groups.get(position));
+
+
+        Intent intent=new Intent(this,RvSubGrpPage.class);
+        intent.putExtra("GRP", groups.get(position));
+        startActivity(intent);
+
 
     }
 }
