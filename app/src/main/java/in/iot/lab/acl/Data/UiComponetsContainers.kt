@@ -15,12 +15,4 @@ object UiComponetsContainers {
         containers.add("Card View")
     }
 
-    @JvmName("getContainers1")
-    fun getContainers():ArrayList<String>{
-        return containers;
-    }
-    @JvmName("getLogo1")
-    fun getLogo(): ArrayList<String> {
-        return logo;
-    }
 }

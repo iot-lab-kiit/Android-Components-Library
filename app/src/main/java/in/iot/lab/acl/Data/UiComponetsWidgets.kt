@@ -21,12 +21,6 @@ object UiComponetsWidgets {
         views.add("Surface View")
     }
 
-    fun getWidgetsNames():ArrayList<String>{
-        return views;
-    }
-    @JvmName("getLogo1")
-    fun getLogo(): ArrayList<String> {
-        return logo;
-    }
+
 
 }

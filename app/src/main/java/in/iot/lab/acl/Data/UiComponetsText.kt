@@ -11,12 +11,5 @@ object UiComponetsText {
         text.add("Edit Text")
         text.add("Toast")
     }
-    @JvmName("getText1")
-    fun getText():ArrayList<String>{
-        return text;
-    }
-    @JvmName("getLogo1")
-    fun getLogo(): ArrayList<String> {
-        return logo;
-    }
+
 }

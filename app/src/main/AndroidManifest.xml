@@ -9,10 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidComponentLibrary">
-        <activity android:name=".RvSubGrpPage"></activity>
-        <activity android:name=".DashBoard" />
-        <activity android:name=".Advanced" />
-        <activity android:name=".Basics" />
+        <activity android:name=".home.MainActivity"></activity>
+        <activity android:name=".RvSubGrpPage" />
         <activity
             android:name=".splash.Splash_1"
             android:theme="@style/Theme.MaterialComponents.Light.NoActionBar">

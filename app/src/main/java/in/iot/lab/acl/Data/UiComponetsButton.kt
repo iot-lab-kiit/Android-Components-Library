@@ -16,11 +16,4 @@ object UiComponetsButton {
         buttons.add("Floating Action Button")
     }
 
-    fun getButtonNames():ArrayList<String>{
-        return buttons;
-    }
-    @JvmName("getLogo1")
-    fun getLogo(): ArrayList<String> {
-        return UiComponetsGroups.logo;
-    }
 }

@@ -15,11 +15,5 @@ object UiComponetsLayouts {
         layouts.add("Table Layout")
     }
 
-    fun getLayoutsNames():ArrayList<String>{
-        return layouts;
-    }
-    @JvmName("getLogo1")
-    fun getLogo(): ArrayList<String> {
-        return logo;
-    }
+
 }

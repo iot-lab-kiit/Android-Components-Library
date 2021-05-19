@@ -14,12 +14,5 @@ object UiComponetsDerived {
         components.add("Fragment Container View")
     }
 
-    @JvmName("getComponents1")
-    fun getComponents():ArrayList<String>{
-        return components;
-    }
-    @JvmName("getLogo1")
-    fun getLogo(): ArrayList<String> {
-        return logo;
-    }
+
 }

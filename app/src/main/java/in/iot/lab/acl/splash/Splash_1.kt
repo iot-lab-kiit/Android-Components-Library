@@ -1,6 +1,6 @@
 package `in`.iot.lab.acl.splash
 
-import `in`.iot.lab.acl.Basics
+import `in`.iot.lab.acl.home.MainActivity
 import `in`.iot.lab.acl.R
 import android.content.Intent
 import android.os.Build
@@ -25,7 +25,7 @@ class Splash_1 : AppCompatActivity() {
 
         Handler().postDelayed({ // This method will be executed once the timer is over
             // Start your app main activity
-            val i = Intent(this@Splash_1, Basics::class.java)
+            val i = Intent(this@Splash_1, MainActivity::class.java)
             startActivity(i)
 
             // close this activity

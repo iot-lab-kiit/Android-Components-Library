@@ -3,23 +3,39 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/navigation_basic">
+    app:startDestination="@+id/basicFragment">
+
 
     <fragment
-        android:id="@+id/navigation_basic"
-        android:name="in.iot.lab.acl.Basics"
-        android:label="@string/title_basics"
-        tools:layout="@layout/activity_basics" />
-
+        android:id="@+id/basicFragment"
+        android:name="in.iot.lab.acl.home.Basic"
+        android:label="fragment_basic"
+        tools:layout="@layout/fragment_basic" >
+        <action
+            android:id="@+id/action_basicFragment_to_rv_Sub_grp_button"
+            app:destination="@id/rv_Sub_grp_button" />
+        <action
+            android:id="@+id/action_basicFragment_to_rv_Sub_grp_text"
+            app:destination="@id/rv_Sub_grp_text" />
+    </fragment>
     <fragment
-        android:id="@+id/navigation_advanced"
-        android:name="in.iot.lab.acl.Advanced"
-        android:label="@string/title_advance"
-        tools:layout="@layout/activity_advanced" />
-
+        android:id="@+id/advancedFragment"
+        android:name="in.iot.lab.acl.AdvancedFragment"
+        android:label="fragment_advanced"
+        tools:layout="@layout/fragment_advanced" />
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="in.iot.lab.acl.DashBoard"
-        android:label="@string/title_DashBoard"
-        tools:layout="@layout/activity_dashboard" />
+        android:id="@+id/dashboardFragment"
+        android:name="in.iot.lab.acl.DashboardFragment"
+        android:label="fragment_dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+    <fragment
+        android:id="@+id/rv_Sub_grp_text"
+        android:name="in.iot.lab.acl.SubHome.Rv_Sub_grp_text"
+        android:label="fragment_rv__sub_grp_text"
+        tools:layout="@layout/fragment_rv__sub_grp_text" />
+    <fragment
+        android:id="@+id/rv_Sub_grp_button"
+        android:name="in.iot.lab.acl.SubHome.Rv_Sub_grp_button"
+        android:label="fragment_rv__sub_grp_button"
+        tools:layout="@layout/fragment_rv__sub_grp_button" />
 </navigation>
