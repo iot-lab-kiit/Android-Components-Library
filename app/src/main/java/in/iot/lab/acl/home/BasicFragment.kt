@@ -56,6 +56,10 @@ class Basic : Fragment(),RvClickHandler  {
         when(str){
             "Text"->navController.navigate(R.id.action_basicFragment_to_rv_Sub_grp_text)
             "Button"->navController.navigate(R.id.action_basicFragment_to_rv_Sub_grp_button)
+            "Widgets/Views"->navController.navigate(R.id.action_basicFragment_to_rv_Sub_grp_widgets)
+            "Layouts"->navController.navigate(R.id.action_basicFragment_to_rv_Sub_grp_Layouts)
+            "Derived Components"->navController.navigate(R.id.action_basicFragment_to_rv_Sub_grp_DerivedComponents)
+            "Containers"->navController.navigate(R.id.action_basicFragment_to_rv_Sub_grp_Containers)
         }
 
     }

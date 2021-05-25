@@ -17,6 +17,18 @@
         <action
             android:id="@+id/action_basicFragment_to_rv_Sub_grp_text"
             app:destination="@id/rv_Sub_grp_text" />
+        <action
+            android:id="@+id/action_basicFragment_to_rv_Sub_grp_widgets"
+            app:destination="@id/rv_Sub_grp_widgets" />
+        <action
+            android:id="@+id/action_basicFragment_to_rv_Sub_grp_Layouts"
+            app:destination="@id/rv_Sub_grp_Layouts" />
+        <action
+            android:id="@+id/action_basicFragment_to_rv_Sub_grp_DerivedComponents"
+            app:destination="@id/rv_Sub_grp_DerivedComponents" />
+        <action
+            android:id="@+id/action_basicFragment_to_rv_Sub_grp_Containers"
+            app:destination="@id/rv_Sub_grp_Containers" />
     </fragment>
     <fragment
         android:id="@+id/advancedFragment"
@@ -32,10 +44,55 @@
         android:id="@+id/rv_Sub_grp_text"
         android:name="in.iot.lab.acl.SubHome.Rv_Sub_grp_text"
         android:label="fragment_rv__sub_grp_text"
-        tools:layout="@layout/fragment_rv__sub_grp_text" />
+        tools:layout="@layout/fragment_rv__sub_grp_text" >
+        <action
+            android:id="@+id/action_rv_Sub_grp_text_to_textView"
+            app:destination="@id/textView" />
+        <action
+            android:id="@+id/action_rv_Sub_grp_text_to_editText"
+            app:destination="@id/editText" />
+        <action
+            android:id="@+id/action_rv_Sub_grp_text_to_toast"
+            app:destination="@id/toast" />
+    </fragment>
     <fragment
         android:id="@+id/rv_Sub_grp_button"
         android:name="in.iot.lab.acl.SubHome.Rv_Sub_grp_button"
         android:label="fragment_rv__sub_grp_button"
         tools:layout="@layout/fragment_rv__sub_grp_button" />
+    <fragment
+        android:id="@+id/rv_Sub_grp_Containers"
+        android:name="in.iot.lab.acl.SubHome.Rv_Sub_grp_Containers"
+        android:label="fragment_rv__sub_grp__containers"
+        tools:layout="@layout/fragment_rv__sub_grp__containers" />
+    <fragment
+        android:id="@+id/rv_Sub_grp_DerivedComponents"
+        android:name="in.iot.lab.acl.SubHome.Rv_Sub_grp_DerivedComponents"
+        android:label="fragment_rv__sub_grp__derived_components"
+        tools:layout="@layout/fragment_rv__sub_grp__derived_components" />
+    <fragment
+        android:id="@+id/rv_Sub_grp_Layouts"
+        android:name="in.iot.lab.acl.SubHome.Rv_Sub_grp_Layouts"
+        android:label="fragment_rv__sub_grp__layouts"
+        tools:layout="@layout/fragment_rv__sub_grp__layouts" />
+    <fragment
+        android:id="@+id/rv_Sub_grp_widgets"
+        android:name="in.iot.lab.acl.SubHome.Rv_Sub_grp_widgets"
+        android:label="fragment_rv__sub_grp_widgets"
+        tools:layout="@layout/fragment_rv__sub_grp_widgets" />
+    <fragment
+        android:id="@+id/textView"
+        android:name="in.iot.lab.acl.text.textView"
+        android:label="fragment_text_view"
+        tools:layout="@layout/fragment_text_view" />
+    <fragment
+        android:id="@+id/editText"
+        android:name="in.iot.lab.acl.text.EditText"
+        android:label="fragment_edit_text"
+        tools:layout="@layout/fragment_edit_text" />
+    <fragment
+        android:id="@+id/toast"
+        android:name="in.iot.lab.acl.text.Toast"
+        android:label="fragment_toast"
+        tools:layout="@layout/fragment_toast" />
 </navigation>

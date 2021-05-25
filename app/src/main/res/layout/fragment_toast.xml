@@ -3,25 +3,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
-    tools:context=".text.textView">
-
+    tools:context=".text.Toast">
 
     <TextView
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Text View"
-        android:textSize="40sp"
+        android:text="Messeage is displayed here"
+        android:background="@drawable/round_bg"
+        android:textSize="20sp"
         android:textAlignment="center"
+        android:layout_gravity="center"
         android:layout_marginTop="10dp"
+        android:padding="10dp"
         />
-
-    <thereisnospon.codeview.CodeView
-        android:layout_marginTop="30dp"
-        android:id="@+id/code_view"
-        android:layout_width="fill_parent"
-        android:layout_height="match_parent"/>
 
 
 

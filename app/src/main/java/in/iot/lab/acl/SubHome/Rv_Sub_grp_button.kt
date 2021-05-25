@@ -12,7 +12,6 @@ import android.view.ViewGroup
 import android.widget.FrameLayout
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import io.github.kbiakov.codeview.CodeView
 import java.util.ArrayList
 
 
@@ -21,7 +20,6 @@ class Rv_Sub_grp_button : Fragment(), RvClickHandler {
     var fragView: FrameLayout? = null
     var groups = ArrayList<String>()
     var logo = ArrayList<String>()
-    var codeView: CodeView? = null
     lateinit var groupRvAdapters: GroupRvAdapters
 
     override fun onCreate(savedInstanceState: Bundle?) {
