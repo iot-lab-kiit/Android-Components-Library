@@ -10,6 +10,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.FrameLayout
+import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import java.util.ArrayList
@@ -49,6 +50,16 @@ class Rv_Sub_grp_button : Fragment(), RvClickHandler {
     }
 
     override fun onItemClick(position: Int) {
+        val str= groups[position];
+        val navController=findNavController();
+        when(str){
+            "Toggle Button"->navController.navigate(R.id.action_rv_Sub_grp_button_to_toggelButtonFrag)
+            "Image Button"->navController.navigate(R.id.action_rv_Sub_grp_button_to_imageButtonFrag)
+            "Radio Button"->navController.navigate(R.id.action_rv_Sub_grp_button_to_radioButtonFrag)
+            "Switch"->navController.navigate(R.id.action_rv_Sub_grp_button_to_switchFrag)
+            "Checkbox"->navController.navigate(R.id.action_rv_Sub_grp_button_to_checkboxFrag)
+            "Floating Action Button"->navController.navigate(R.id.action_rv_Sub_grp_button_to_floatingActionButtonFrag)
+        }
     }
 
 

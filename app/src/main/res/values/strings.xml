@@ -8,12 +8,12 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
-    <string name="textView"> &lt;TextView <bl/>
-         android:layout_width="match_parent" <bl/>
-         android:layout_height="wrap_content" <br/>
-         android:text="Text View" <br/>
-         android:textSize="40sp" <br/>
-         android:textAlignment="center" <br/>
+    <string name="textView"> &lt;TextView <bl />
+         android:layout_width="match_parent" <bl />
+         android:layout_height="wrap_content" <br />
+         android:text="Text View" <br />
+         android:textSize="40sp" <br />
+         android:textAlignment="center" <br />
          android:layout_marginTop="10dp"/n /></string>
 
 </resources>

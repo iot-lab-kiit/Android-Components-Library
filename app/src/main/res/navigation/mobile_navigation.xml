@@ -59,7 +59,26 @@
         android:id="@+id/rv_Sub_grp_button"
         android:name="in.iot.lab.acl.SubHome.Rv_Sub_grp_button"
         android:label="fragment_rv__sub_grp_button"
-        tools:layout="@layout/fragment_rv__sub_grp_button" />
+        tools:layout="@layout/fragment_rv__sub_grp_button" >
+        <action
+            android:id="@+id/action_rv_Sub_grp_button_to_toggelButtonFrag"
+            app:destination="@id/toggelButtonFrag" />
+        <action
+            android:id="@+id/action_rv_Sub_grp_button_to_imageButtonFrag"
+            app:destination="@id/imageButtonFrag" />
+        <action
+            android:id="@+id/action_rv_Sub_grp_button_to_radioButtonFrag"
+            app:destination="@id/radioButtonFrag" />
+        <action
+            android:id="@+id/action_rv_Sub_grp_button_to_switchFrag"
+            app:destination="@id/switchFrag" />
+        <action
+            android:id="@+id/action_rv_Sub_grp_button_to_checkboxFrag"
+            app:destination="@id/checkboxFrag" />
+        <action
+            android:id="@+id/action_rv_Sub_grp_button_to_floatingActionButtonFrag"
+            app:destination="@id/floatingActionButtonFrag" />
+    </fragment>
     <fragment
         android:id="@+id/rv_Sub_grp_Containers"
         android:name="in.iot.lab.acl.SubHome.Rv_Sub_grp_Containers"
@@ -95,4 +114,34 @@
         android:name="in.iot.lab.acl.text.Toast"
         android:label="fragment_toast"
         tools:layout="@layout/fragment_toast" />
+    <fragment
+        android:id="@+id/checkboxFrag"
+        android:name="in.iot.lab.acl.button.CheckboxFrag"
+        android:label="fragment_checkbox"
+        tools:layout="@layout/fragment_checkbox" />
+    <fragment
+        android:id="@+id/floatingActionButtonFrag"
+        android:name="in.iot.lab.acl.button.FloatingActionButtonFrag"
+        android:label="fragment_floating_action_button"
+        tools:layout="@layout/fragment_floating_action_button" />
+    <fragment
+        android:id="@+id/imageButtonFrag"
+        android:name="in.iot.lab.acl.button.ImageButtonFrag"
+        android:label="fragment_image_button"
+        tools:layout="@layout/fragment_image_button" />
+    <fragment
+        android:id="@+id/radioButtonFrag"
+        android:name="in.iot.lab.acl.button.RadioButtonFrag"
+        android:label="fragment_radio_button"
+        tools:layout="@layout/fragment_radio_button" />
+    <fragment
+        android:id="@+id/switchFrag"
+        android:name="in.iot.lab.acl.button.SwitchFrag"
+        android:label="fragment_switch"
+        tools:layout="@layout/fragment_switch" />
+    <fragment
+        android:id="@+id/toggelButtonFrag"
+        android:name="in.iot.lab.acl.button.ToggelButtonFrag"
+        android:label="fragment_toggel_button"
+        tools:layout="@layout/fragment_toggel_button" />
 </navigation>

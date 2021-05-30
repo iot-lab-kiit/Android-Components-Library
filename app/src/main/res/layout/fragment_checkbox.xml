@@ -4,19 +4,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".text.Toast">
+    tools:context=".button.CheckboxFrag">
 
-    <TextView
+    <CheckBox
+        android:id="@+id/simpleCheckBox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Messeage is displayed here"
-        android:background="@drawable/round_bg"
-        android:textSize="20sp"
-        android:textAlignment="center"
-        android:layout_gravity="center"
-        android:layout_marginTop="10dp"
-        android:padding="10dp"
-        />
+        android:text="Simple CheckBox"
+        android:checked="true"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -24,7 +19,6 @@
         android:id="@+id/code"
         android:text="asgfdaac"
         android:layout_marginTop="20dp"/>
-
 
 
 </LinearLayout>

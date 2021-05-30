@@ -4,19 +4,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".text.Toast">
+    tools:context=".button.SwitchFrag">
 
-    <TextView
+    <Switch
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Messeage is displayed here"
-        android:background="@drawable/round_bg"
-        android:textSize="20sp"
-        android:textAlignment="center"
+        android:text="Switch1:"
+        android:checked="true"
+        android:textOff="OFF"
+        android:textOn="ON"
+        android:id="@+id/Switch"
         android:layout_gravity="center"
-        android:layout_marginTop="10dp"
-        android:padding="10dp"
-        />
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
 
     <TextView
         android:layout_width="match_parent"

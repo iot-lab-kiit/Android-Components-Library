@@ -3,20 +3,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
-    tools:context=".text.Toast">
+    tools:context=".button.FloatingActionButtonFrag">
 
-    <TextView
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/add_fab"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Messeage is displayed here"
-        android:background="@drawable/round_bg"
-        android:textSize="20sp"
-        android:textAlignment="center"
         android:layout_gravity="center"
-        android:layout_marginTop="10dp"
-        android:padding="10dp"
-        />
+        android:src="@drawable/add"
+        app:fabSize="normal" />
 
     <TextView
         android:layout_width="match_parent"
@@ -24,7 +21,6 @@
         android:id="@+id/code"
         android:text="asgfdaac"
         android:layout_marginTop="20dp"/>
-
 
 
 </LinearLayout>

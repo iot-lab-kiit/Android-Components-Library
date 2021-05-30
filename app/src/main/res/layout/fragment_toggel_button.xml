@@ -4,18 +4,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".text.Toast">
+    tools:context=".button.ToggelButtonFrag">
 
-    <TextView
+    <ToggleButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Messeage is displayed here"
-        android:background="@drawable/round_bg"
-        android:textSize="20sp"
-        android:textAlignment="center"
+        android:background="#A100FF"
+        android:id="@+id/toggleBtn"
         android:layout_gravity="center"
         android:layout_marginTop="10dp"
-        android:padding="10dp"
+        android:textOff="This Text Is Shown When Button Is Set For OFF"
+        android:textOn="This Text Is Shown When Button Is Set For ON"
         />
 
     <TextView
@@ -24,7 +23,5 @@
         android:id="@+id/code"
         android:text="asgfdaac"
         android:layout_marginTop="20dp"/>
-
-
 
 </LinearLayout>
