@@ -98,7 +98,11 @@
         android:id="@+id/rv_Sub_grp_widgets"
         android:name="in.iot.lab.acl.SubHome.Rv_Sub_grp_widgets"
         android:label="fragment_rv__sub_grp_widgets"
-        tools:layout="@layout/fragment_rv__sub_grp_widgets" />
+        tools:layout="@layout/fragment_rv__sub_grp_widgets" >
+        <action
+            android:id="@+id/action_rv_Sub_grp_widgets_to_imageViewFrag"
+            app:destination="@id/imageViewFrag" />
+    </fragment>
     <fragment
         android:id="@+id/textView"
         android:name="in.iot.lab.acl.text.textView"
@@ -144,4 +148,9 @@
         android:name="in.iot.lab.acl.button.ToggelButtonFrag"
         android:label="fragment_toggel_button"
         tools:layout="@layout/fragment_toggel_button" />
+    <fragment
+        android:id="@+id/imageViewFrag"
+        android:name="in.iot.lab.acl.widgets.ImageViewFrag"
+        android:label="fragment_image_view"
+        tools:layout="@layout/fragment_image_view" />
 </navigation>
