@@ -39,6 +39,7 @@ class Rv_Sub_grp_button : Fragment(), RvClickHandler {
         groups = UiComponetsButton.buttons
         logo = UiComponetsButton.logo
 
+
         //Set Adapter
 
         //Set Adapter
