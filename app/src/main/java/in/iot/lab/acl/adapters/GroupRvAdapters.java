@@ -13,20 +13,21 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
+import java.util.List;
 
 import in.iot.lab.acl.R;
 import in.iot.lab.acl.utils.RvClickHandler;
 
 public class GroupRvAdapters extends RecyclerView.Adapter<GroupRvAdapters.GroupViewHolder> {
 
-    ArrayList<String> group = new ArrayList<>();
+    List<String> group = new ArrayList<>();
     ArrayList<String> logo = new ArrayList<>();
     Context context;
     RvClickHandler mRvClickHandler;
 
 
 
-    public GroupRvAdapters(ArrayList<String> group, ArrayList<String> logo, Context context, RvClickHandler rvClickHandler) {
+    public GroupRvAdapters(List<String> group, ArrayList<String> logo, Context context, RvClickHandler rvClickHandler) {
         this.group = group;
         this.logo = logo;
         this.context=context;
