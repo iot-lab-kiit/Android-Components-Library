@@ -11,6 +11,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.FrameLayout
 import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import java.util.ArrayList
@@ -54,7 +55,16 @@ class Rv_Sub_grp_Layouts : Fragment(), RvClickHandler {
     }
 
     override fun onItemClick(position: Int) {
+        val str= groups[position];
+        val navController=findNavController();
+        when(str){
+            "Constraint Layout"->navController.navigate(R.id.action_rv_Sub_grp_Layouts_to_constraintLayoutFrag)
+            "Linear Layout(Horizontal)"->navController.navigate(R.id.action_rv_Sub_grp_Layouts_to_linearLayoutH)
+            "Constraint Layout(Vertical)"->navController.navigate(R.id.action_rv_Sub_grp_Layouts_to_linearLayoutV)
+            "Frame Layout"->navController.navigate(R.id.action_rv_Sub_grp_Layouts_to_frameLayoutFrag)
+            "Table Layout"->navController.navigate(R.id.action_rv_Sub_grp_Layouts_to_tableLayoutFrag)
 
+        }
     }
 
 
