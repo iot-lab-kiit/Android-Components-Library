@@ -88,7 +88,20 @@
         android:id="@+id/rv_Sub_grp_DerivedComponents"
         android:name="in.iot.lab.acl.SubHome.Rv_Sub_grp_DerivedComponents"
         android:label="fragment_rv__sub_grp__derived_components"
-        tools:layout="@layout/fragment_rv__sub_grp__derived_components" />
+        tools:layout="@layout/fragment_rv__sub_grp__derived_components" >
+        <action
+            android:id="@+id/action_rv_Sub_grp_DerivedComponents_to_autoCompleteTextFrag"
+            app:destination="@id/autoCompleteTextFrag" />
+        <action
+            android:id="@+id/action_rv_Sub_grp_DerivedComponents_to_imageSwitcherFrag"
+            app:destination="@id/imageSwitcherFrag" />
+        <action
+            android:id="@+id/action_rv_Sub_grp_DerivedComponents_to_textSwitcherFrag"
+            app:destination="@id/textSwitcherFrag" />
+        <action
+            android:id="@+id/action_rv_Sub_grp_DerivedComponents_to_alertDialogFrag"
+            app:destination="@id/alertDialogFrag" />
+    </fragment>
     <fragment
         android:id="@+id/rv_Sub_grp_Layouts"
         android:name="in.iot.lab.acl.SubHome.Rv_Sub_grp_Layouts"
@@ -114,11 +127,7 @@
         android:id="@+id/rv_Sub_grp_widgets"
         android:name="in.iot.lab.acl.SubHome.Rv_Sub_grp_widgets"
         android:label="fragment_rv__sub_grp_widgets"
-        tools:layout="@layout/fragment_rv__sub_grp_widgets" >
-        <action
-            android:id="@+id/action_rv_Sub_grp_widgets_to_imageViewFrag"
-            app:destination="@id/imageViewFrag" />
-    </fragment>
+        tools:layout="@layout/fragment_rv__sub_grp_widgets" />
     <fragment
         android:id="@+id/textView"
         android:name="in.iot.lab.acl.text.textView"
@@ -165,11 +174,6 @@
         android:label="fragment_toggel_button"
         tools:layout="@layout/fragment_toggel_button" />
     <fragment
-        android:id="@+id/imageViewFrag"
-        android:name="in.iot.lab.acl.widgets.ImageViewFrag"
-        android:label="fragment_image_view"
-        tools:layout="@layout/fragment_image_view" />
-    <fragment
         android:id="@+id/constraintLayoutFrag"
         android:name="in.iot.lab.acl.layouts.ConstraintLayoutFrag"
         android:label="fragment_constraint_layout"
@@ -194,4 +198,24 @@
         android:name="in.iot.lab.acl.layouts.TableLayoutFrag"
         android:label="fragment_table_layout"
         tools:layout="@layout/fragment_table_layout" />
+    <fragment
+        android:id="@+id/alertDialogFrag"
+        android:name="in.iot.lab.acl.derivedComponent.AlertDialogFrag"
+        android:label="fragment_alert_dialog"
+        tools:layout="@layout/fragment_alert_dialog" />
+    <fragment
+        android:id="@+id/autoCompleteTextFrag"
+        android:name="in.iot.lab.acl.derivedComponent.AutoCompleteTextFrag"
+        android:label="fragment_auto_complete_text"
+        tools:layout="@layout/fragment_auto_complete_text" />
+    <fragment
+        android:id="@+id/imageSwitcherFrag"
+        android:name="in.iot.lab.acl.derivedComponent.ImageSwitcherFrag"
+        android:label="fragment_image_switcher"
+        tools:layout="@layout/fragment_image_switcher" />
+    <fragment
+        android:id="@+id/textSwitcherFrag"
+        android:name="in.iot.lab.acl.derivedComponent.TextSwitcherFrag"
+        android:label="fragment_text_switcher"
+        tools:layout="@layout/fragment_text_switcher" />
 </navigation>

@@ -18,8 +18,7 @@ import java.util.ArrayList
 
 class Rv_Sub_grp_button : Fragment(), RvClickHandler {
     var recyclerView: RecyclerView? = null
-    var fragView: FrameLayout? = null
-    var groups = ArrayList<String>()
+    var groups = listOf<String>()
     var logo = ArrayList<String>()
     lateinit var groupRvAdapters: GroupRvAdapters
 
@@ -36,13 +35,12 @@ class Rv_Sub_grp_button : Fragment(), RvClickHandler {
         val myFragmentView=inflater.inflate(R.layout.fragment_rv__sub_grp_button, container, false)
         val recyclerView=myFragmentView.findViewById<RecyclerView>(R.id.extended_rv_button)
 
-        groups = UiComponetsButton.buttons
         logo = UiComponetsButton.logo
+        groups = resources.getStringArray(R.array.button_data).toList()
 
 
         //Set Adapter
 
-        //Set Adapter
         groupRvAdapters = GroupRvAdapters(groups, logo, context, this)
         recyclerView.adapter = groupRvAdapters
         val manager: RecyclerView.LayoutManager = GridLayoutManager(context, 2)
@@ -54,12 +52,12 @@ class Rv_Sub_grp_button : Fragment(), RvClickHandler {
         val str= groups[position];
         val navController=findNavController();
         when(str){
-            "Toggle Button"->navController.navigate(R.id.action_rv_Sub_grp_button_to_toggelButtonFrag)
-            "Image Button"->navController.navigate(R.id.action_rv_Sub_grp_button_to_imageButtonFrag)
-            "Radio Button"->navController.navigate(R.id.action_rv_Sub_grp_button_to_radioButtonFrag)
-            "Switch"->navController.navigate(R.id.action_rv_Sub_grp_button_to_switchFrag)
-            "Checkbox"->navController.navigate(R.id.action_rv_Sub_grp_button_to_checkboxFrag)
-            "Floating Action Button"->navController.navigate(R.id.action_rv_Sub_grp_button_to_floatingActionButtonFrag)
+            getString(R.string.group_button_toggle)->navController.navigate(R.id.action_rv_Sub_grp_button_to_toggelButtonFrag)
+            getString(R.string.group_button_image)->navController.navigate(R.id.action_rv_Sub_grp_button_to_imageButtonFrag)
+            getString(R.string.group_button_radio)->navController.navigate(R.id.action_rv_Sub_grp_button_to_radioButtonFrag)
+            getString(R.string.group_button_switch)->navController.navigate(R.id.action_rv_Sub_grp_button_to_switchFrag)
+            getString(R.string.group_button_checkbox)->navController.navigate(R.id.action_rv_Sub_grp_button_to_checkboxFrag)
+            getString(R.string.group_button_floating_action)->navController.navigate(R.id.action_rv_Sub_grp_button_to_floatingActionButtonFrag)
         }
     }
 
