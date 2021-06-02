@@ -11,6 +11,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.FrameLayout
 import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import java.util.*
@@ -53,6 +54,24 @@ class Rv_Sub_grp_widgets : Fragment(), RvClickHandler {
     }
 
     override fun onItemClick(position: Int) {
+
+        val str= groups[position];
+        val navController=findNavController();
+        when(str){
+            "Image View"->navController.navigate(R.id.action_rv_Sub_grp_widgets_to_imageViewFrag)
+            "Web View"->navController.navigate(R.id.action_rv_Sub_grp_widgets_to_webViewFrag)
+            "Video View"->navController.navigate(R.id.action_rv_Sub_grp_widgets_to_videoViewFrag)
+            "Calendar View"->navController.navigate(R.id.action_rv_Sub_grp_widgets_to_calendarViewFragment)
+            "Progress Bar(Spiral)"->navController.navigate(R.id.action_rv_Sub_grp_widgets_to_progressBarSpiralFrag)
+            "Progress Bar(Horizontal)"->navController.navigate(R.id.action_rv_Sub_grp_widgets_to_progressBarHorizontalFrag)
+            "Seek Bar"->navController.navigate(R.id.action_rv_Sub_grp_widgets_to_seekBarFrag)
+            "Seek Bar(Discrete)"->navController.navigate(R.id.action_rv_Sub_grp_widgets_to_discreteSeekBarFrag)
+            "Star Rating"->navController.navigate(R.id.action_rv_Sub_grp_widgets_to_ratingBarFrag)
+            "Search View"->navController.navigate(R.id.action_rv_Sub_grp_widgets_to_searchViewFrag)
+            "Texture View"->navController.navigate(R.id.action_rv_Sub_grp_widgets_to_textureViewFrag)
+            "Surface View"->navController.navigate(R.id.action_rv_Sub_grp_widgets_to_surfaceViewFrag)
+
+        }
     }
 
 

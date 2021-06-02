@@ -102,6 +102,39 @@
         <action
             android:id="@+id/action_rv_Sub_grp_widgets_to_imageViewFrag"
             app:destination="@id/imageViewFrag" />
+        <action
+            android:id="@+id/action_rv_Sub_grp_widgets_to_webViewFrag"
+            app:destination="@id/webViewFrag" />
+        <action
+            android:id="@+id/action_rv_Sub_grp_widgets_to_videoViewFrag"
+            app:destination="@id/videoViewFrag" />
+        <action
+            android:id="@+id/action_rv_Sub_grp_widgets_to_calendarViewFragment"
+            app:destination="@id/calendarViewFragment" />
+        <action
+            android:id="@+id/action_rv_Sub_grp_widgets_to_progressBarSpiralFrag"
+            app:destination="@id/progressBarSpiralFrag" />
+        <action
+            android:id="@+id/action_rv_Sub_grp_widgets_to_progressBarHorizontalFrag"
+            app:destination="@id/progressBarHorizontalFrag" />
+        <action
+            android:id="@+id/action_rv_Sub_grp_widgets_to_seekBarFrag"
+            app:destination="@id/seekBarFrag" />
+        <action
+            android:id="@+id/action_rv_Sub_grp_widgets_to_discreteSeekBarFrag"
+            app:destination="@id/discreteSeekBarFrag" />
+        <action
+            android:id="@+id/action_rv_Sub_grp_widgets_to_ratingBarFrag"
+            app:destination="@id/ratingBarFrag" />
+        <action
+            android:id="@+id/action_rv_Sub_grp_widgets_to_searchViewFrag"
+            app:destination="@id/searchViewFrag" />
+        <action
+            android:id="@+id/action_rv_Sub_grp_widgets_to_textureViewFrag"
+            app:destination="@id/textureViewFrag" />
+        <action
+            android:id="@+id/action_rv_Sub_grp_widgets_to_surfaceViewFrag"
+            app:destination="@id/surfaceViewFrag" />
     </fragment>
     <fragment
         android:id="@+id/textView"
@@ -153,4 +186,59 @@
         android:name="in.iot.lab.acl.widgets.ImageViewFrag"
         android:label="fragment_image_view"
         tools:layout="@layout/fragment_image_view" />
+    <fragment
+        android:id="@+id/webViewFrag"
+        android:name="in.iot.lab.acl.WebViewFrag"
+        android:label="fragment_web_view"
+        tools:layout="@layout/fragment_web_view" />
+    <fragment
+        android:id="@+id/videoViewFrag"
+        android:name="in.iot.lab.acl.VideoViewFrag"
+        android:label="fragment_video_view"
+        tools:layout="@layout/fragment_video_view" />
+    <fragment
+        android:id="@+id/calendarViewFragment"
+        android:name="in.iot.lab.acl.CalendarViewFragment"
+        android:label="fragment_calendar_view"
+        tools:layout="@layout/fragment_calendar_view" />
+    <fragment
+        android:id="@+id/progressBarSpiralFrag"
+        android:name="in.iot.lab.acl.ProgressBarSpiralFrag"
+        android:label="fragment_progress_bar_spiral"
+        tools:layout="@layout/fragment_progress_bar_spiral" />
+    <fragment
+        android:id="@+id/progressBarHorizontalFrag"
+        android:name="in.iot.lab.acl.ProgressBarHorizontalFrag"
+        android:label="fragment_progress_bar_horizontal"
+        tools:layout="@layout/fragment_progress_bar_horizontal" />
+    <fragment
+        android:id="@+id/seekBarFrag"
+        android:name="in.iot.lab.acl.SeekBarFrag"
+        android:label="fragment_seek_bar"
+        tools:layout="@layout/fragment_seek_bar" />
+    <fragment
+        android:id="@+id/discreteSeekBarFrag"
+        android:name="in.iot.lab.acl.DiscreteSeekBarFrag"
+        android:label="fragment_discrete_seek_bar"
+        tools:layout="@layout/fragment_discrete_seek_bar" />
+    <fragment
+        android:id="@+id/ratingBarFrag"
+        android:name="in.iot.lab.acl.RatingBarFrag"
+        android:label="fragment_rating_bar"
+        tools:layout="@layout/fragment_rating_bar" />
+    <fragment
+        android:id="@+id/searchViewFrag"
+        android:name="in.iot.lab.acl.SearchViewFrag"
+        android:label="fragment_search_view"
+        tools:layout="@layout/fragment_search_view" />
+    <fragment
+        android:id="@+id/textureViewFrag"
+        android:name="in.iot.lab.acl.TextureViewFrag"
+        android:label="fragment_texture_view"
+        tools:layout="@layout/fragment_texture_view" />
+    <fragment
+        android:id="@+id/surfaceViewFrag"
+        android:name="in.iot.lab.acl.SurfaceViewFrag"
+        android:label="fragment_surface_view"
+        tools:layout="@layout/fragment_surface_view" />
 </navigation>

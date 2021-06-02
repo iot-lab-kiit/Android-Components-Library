@@ -55,6 +55,7 @@ class Rv_Sub_grp_Layouts : Fragment(), RvClickHandler {
 
     override fun onItemClick(position: Int) {
 
+
     }
 
 
