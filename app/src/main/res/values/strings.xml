@@ -9,14 +9,119 @@
     <string name="hello_Coders">Hello Coders</string>
 
 
-
+    //Text Data
     <string name="group_text_view">Text View</string>
     <string name="group_edit_text">Edit Text</string>
     <string name="group_toast">Toast</string>
 
+
     <string-array name="text_view_data">
-            <item>@string/group_text_view</item>
-            <item>@string/group_edit_text</item>
-            <item>@string/group_toast</item>
-        </string-array>
+        <item>@string/group_text_view</item>
+        <item>@string/group_edit_text</item>
+        <item>@string/group_toast</item>
+    </string-array>
+
+
+    //Button Data
+    <string name="group_button_toggle">Toggle Button</string>
+    <string name="group_button_image">Image Button</string>
+    <string name="group_button_radio">Radio Button</string>
+    <string name="group_button_switch">Switch</string>
+    <string name="group_button_checkbox">Checkbox</string>
+    <string name="group_button_floating_action">Floating Action Button</string>
+
+
+    <string-array name="button_data">
+        <item>@string/group_button_toggle</item>
+        <item>@string/group_button_image</item>
+        <item>@string/group_button_radio</item>
+        <item>@string/group_button_switch</item>
+        <item>@string/group_button_checkbox</item>
+        <item>@string/group_button_floating_action</item>
+    </string-array>
+
+
+    //Layout Data
+    <string name="group_layouts_constraint">Constraint Layout</string>
+    <string name="group_layouts_linar_h">Linear Layout(Horizontal)</string>
+    <string name="group_layouts_linar_v">Linear Layout(Vertical)</string>
+    <string name="group_layouts_frame">Frame Layout</string>
+    <string name="group_layouts_table">Table Layout</string>
+
+
+    <string-array name="layout_data">
+        <item>@string/group_layouts_constraint</item>
+        <item>@string/group_layouts_linar_h</item>
+        <item>@string/group_layouts_linar_v</item>
+        <item>@string/group_layouts_frame</item>
+        <item>@string/group_layouts_table</item>
+    </string-array>
+
+
+    //Derived Component Data
+
+    <string name="group_derived_auto_complete_text_view">Auto Complete Textview</string>
+    <string name="group_derived_image_switcher">Image Switcher</string>
+    <string name="group_derived_text_switcher">Text Switcher</string>
+    <string name="group_derived_alert_dialog">Alert Dialog</string>
+
+    <string-array name="derived_component_data">
+        <item>@string/group_derived_auto_complete_text_view</item>
+        <item>@string/group_derived_image_switcher</item>
+        <item>@string/group_derived_text_switcher</item>
+        <item>@string/group_derived_alert_dialog</item>
+    </string-array>
+
+
+    //Container Data
+    <string name="group_container_spinner">Spinner</string>
+    <string name="group_container_recycler_view">Recycler View</string>
+    <string name="group_container_scroll_view">Scroll View</string>
+    <string name="group_container_horizontal_scroll_view">Horizontal Scroll View</string>
+    <string name="group_container_nested_scroll_view">Nested Scroll View</string>
+    <string name="group_container_card_view">Card View</string>
+
+    <string-array name="container_data">
+        <item>@string/group_container_spinner</item>
+        <item>@string/group_container_recycler_view</item>
+        <item>@string/group_container_scroll_view</item>
+        <item>@string/group_container_horizontal_scroll_view</item>
+        <item>@string/group_container_nested_scroll_view</item>
+        <item>@string/group_container_card_view</item>
+    </string-array>
+
+
+    //Widget Data
+    <string name="group_widget_image_view">Image View</string>
+    <string name="group_widget_web_view">Web View</string>
+    <string name="group_widget_vedio_view">Video View</string>
+    <string name="group_widget_calender_view">Calendar View</string>
+    <string name="group_widget_progress_spiral">Progress Bar(Spiral)</string>
+    <string name="group_widget_progress_horizontal">Progress Bar(Horizontal)</string>
+    <string name="group_widget_seek_bar">Seek Bar</string>
+    <string name="group_widget_seek_bar_discrete">Seek Bar(Discrete)</string>
+    <string name="group_widget_start_raiting">Star Rating</string>
+    <string name="group_widget_search_view">Search View</string>
+    <string name="group_widget_texture_view">Texture View</string>
+    <string name="group_widget_surface_view">Surface View</string>
+
+
+    <string-array name="widget_data">
+        <item>@string/group_widget_image_view</item>
+        <item>@string/group_widget_web_view</item>
+        <item>@string/group_widget_vedio_view</item>
+        <item>@string/group_widget_calender_view</item>
+        <item>@string/group_widget_progress_spiral</item>
+        <item>@string/group_widget_progress_horizontal</item>
+        <item>@string/group_widget_seek_bar</item>
+        <item>@string/group_widget_seek_bar_discrete</item>
+        <item>@string/group_widget_start_raiting</item>
+        <item>@string/group_widget_search_view</item>
+        <item>@string/group_widget_texture_view</item>
+        <item>@string/group_widget_surface_view</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
 </resources>

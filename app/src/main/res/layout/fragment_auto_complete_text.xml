@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".derivedComponent.AutoCompleteTextFrag">
+
+    <AutoCompleteTextView
+        android:id="@+id/AutoCompleteTextViewDemo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:completionThreshold="1"
+        android:hint="Enter Name"
+        android:padding="15dp"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/txtautotext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/code"
+        android:text="asgfdaac"
+        android:layout_marginTop="20dp"/>
+
+
+</LinearLayout>
