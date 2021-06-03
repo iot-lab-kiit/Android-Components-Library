@@ -5,6 +5,7 @@ import `in`.iot.lab.acl.adapters.GroupRvAdapters
 import `in`.iot.lab.acl.data.UiComponetsGroups
 import `in`.iot.lab.acl.utils.RvClickHandler
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -16,8 +17,8 @@ import java.util.*
 
 
 class Basic : Fragment(),RvClickHandler  {
-    var groups = ArrayList<String>()
-    var logo = ArrayList<String>()
+    var groups = listOf<String>()
+    var logo = listOf<String>()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -33,8 +34,10 @@ class Basic : Fragment(),RvClickHandler  {
         var groupRvAdapters: GroupRvAdapters
 
         //Set Adapter
-        groups = UiComponetsGroups.groups
-        logo = UiComponetsGroups.logo
+        groups = resources.getStringArray(R.array.basic_data).toList()
+        logo = resources.getStringArray(R.array.basic_logo).toList()
+
+//        Log.d("Img array",logo.toString())
 
         groupRvAdapters = GroupRvAdapters(groups, logo, context,this)
         recyclerView.adapter = groupRvAdapters
@@ -54,12 +57,12 @@ class Basic : Fragment(),RvClickHandler  {
         val str= groups[position];
         val navController=findNavController();
         when(str){
-            "Text"->navController.navigate(R.id.action_basicFragment_to_rv_Sub_grp_text)
-            "Button"->navController.navigate(R.id.action_basicFragment_to_rv_Sub_grp_button)
-            "Widgets/Views"->navController.navigate(R.id.action_basicFragment_to_rv_Sub_grp_widgets)
-            "Layouts"->navController.navigate(R.id.action_basicFragment_to_rv_Sub_grp_Layouts)
-            "Derived Components"->navController.navigate(R.id.action_basicFragment_to_rv_Sub_grp_DerivedComponents)
-            "Containers"->navController.navigate(R.id.action_basicFragment_to_rv_Sub_grp_Containers)
+            getString(R.string.basic_text)->navController.navigate(R.id.action_basicFragment_to_rv_Sub_grp_text)
+            getString(R.string.basic_button)->navController.navigate(R.id.action_basicFragment_to_rv_Sub_grp_button)
+            getString(R.string.basic_widgets)->navController.navigate(R.id.action_basicFragment_to_rv_Sub_grp_widgets)
+            getString(R.string.basic_layouts)->navController.navigate(R.id.action_basicFragment_to_rv_Sub_grp_Layouts)
+            getString(R.string.basic_dc)->navController.navigate(R.id.action_basicFragment_to_rv_Sub_grp_DerivedComponents)
+            getString(R.string.basic_containers)->navController.navigate(R.id.action_basicFragment_to_rv_Sub_grp_Containers)
         }
 
     }

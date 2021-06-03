@@ -19,7 +19,7 @@ import java.util.ArrayList
 class Rv_Sub_grp_button : Fragment(), RvClickHandler {
     var recyclerView: RecyclerView? = null
     var groups = listOf<String>()
-    var logo = ArrayList<String>()
+    var logo = listOf<String>()
     lateinit var groupRvAdapters: GroupRvAdapters
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -35,7 +35,8 @@ class Rv_Sub_grp_button : Fragment(), RvClickHandler {
         val myFragmentView=inflater.inflate(R.layout.fragment_rv__sub_grp_button, container, false)
         val recyclerView=myFragmentView.findViewById<RecyclerView>(R.id.extended_rv_button)
 
-        logo = UiComponetsButton.logo
+        logo = resources.getStringArray(R.array.button_logo_data).toList()
+
         groups = resources.getStringArray(R.array.button_data).toList()
 
 

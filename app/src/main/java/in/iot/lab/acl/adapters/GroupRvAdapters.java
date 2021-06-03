@@ -21,13 +21,13 @@ import in.iot.lab.acl.utils.RvClickHandler;
 public class GroupRvAdapters extends RecyclerView.Adapter<GroupRvAdapters.GroupViewHolder> {
 
     List<String> group = new ArrayList<>();
-    ArrayList<String> logo = new ArrayList<>();
+    List<String> logo = new ArrayList<>();
     Context context;
     RvClickHandler mRvClickHandler;
 
 
 
-    public GroupRvAdapters(List<String> group, ArrayList<String> logo, Context context, RvClickHandler rvClickHandler) {
+    public GroupRvAdapters(List<String> group, List<String> logo, Context context, RvClickHandler rvClickHandler) {
         this.group = group;
         this.logo = logo;
         this.context=context;
@@ -46,7 +46,7 @@ public class GroupRvAdapters extends RecyclerView.Adapter<GroupRvAdapters.GroupV
     public void onBindViewHolder(@NonNull GroupViewHolder holder, int position) {
         String title = group.get(position);
         String imgLoc = "@drawable/acl_logo";
-        int imageResource= context.getResources().getIdentifier(imgLoc,null, context.getPackageName());
+        int imageResource= context.getResources().getIdentifier(logo.get(position),null, context.getPackageName());
         Drawable res=context.getResources().getDrawable(imageResource);
 
 

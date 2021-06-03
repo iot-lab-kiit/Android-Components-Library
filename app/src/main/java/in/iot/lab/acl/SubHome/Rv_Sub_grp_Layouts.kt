@@ -3,7 +3,6 @@ package `in`.iot.lab.acl.SubHome
 import `in`.iot.lab.acl.R
 import `in`.iot.lab.acl.adapters.GroupRvAdapters
 import `in`.iot.lab.acl.data.UiComponetsLayouts
-import `in`.iot.lab.acl.data.UiComponetsText
 import `in`.iot.lab.acl.utils.RvClickHandler
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -14,14 +13,14 @@ import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import java.util.ArrayList
+import java.util.*
 
 
 class Rv_Sub_grp_Layouts : Fragment(), RvClickHandler {
     var recyclerView: RecyclerView? = null
     var fragView: FrameLayout? = null
     var groups = listOf<String>()
-    var logo = ArrayList<String>()
+    var logo = listOf<String>()
     lateinit var groupRvAdapters: GroupRvAdapters
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -35,12 +34,14 @@ class Rv_Sub_grp_Layouts : Fragment(), RvClickHandler {
     ): View? {
         // Inflate the layout for this fragment
         val myFragmentView = inflater.inflate(
-            R.layout.fragment_rv__sub_grp__layouts, container, false)
+            R.layout.fragment_rv__sub_grp__layouts, container, false
+        )
 
-            val recyclerView = myFragmentView . findViewById < RecyclerView >(R.id.extended_rv_layouts)
+        val recyclerView = myFragmentView.findViewById<RecyclerView>(R.id.extended_rv_layouts)
 
         groups = resources.getStringArray(R.array.layout_data).toList()
-        logo = UiComponetsLayouts.logo
+        logo = resources.getStringArray(R.array.layout_logo_data).toList()
+
 
         //Set Adapter
 
@@ -54,21 +55,19 @@ class Rv_Sub_grp_Layouts : Fragment(), RvClickHandler {
     }
 
     override fun onItemClick(position: Int) {
-<<<<<<< HEAD
 
 
-=======
-        val str= groups[position];
-        val navController=findNavController();
-        when(str){
-            getString(R.string.group_layouts_constraint)->navController.navigate(R.id.action_rv_Sub_grp_Layouts_to_constraintLayoutFrag)
-            getString(R.string.group_layouts_linar_h)->navController.navigate(R.id.action_rv_Sub_grp_Layouts_to_linearLayoutH)
-            getString(R.string.group_layouts_linar_v)->navController.navigate(R.id.action_rv_Sub_grp_Layouts_to_linearLayoutV)
-            getString(R.string.group_layouts_frame)->navController.navigate(R.id.action_rv_Sub_grp_Layouts_to_frameLayoutFrag)
-            getString(R.string.group_layouts_table)->navController.navigate(R.id.action_rv_Sub_grp_Layouts_to_tableLayoutFrag)
+        val str = groups[position];
+        val navController = findNavController();
+        when (str) {
+            getString(R.string.group_layouts_constraint) -> navController.navigate(R.id.action_rv_Sub_grp_Layouts_to_constraintLayoutFrag)
+            getString(R.string.group_layouts_linar_h) -> navController.navigate(R.id.action_rv_Sub_grp_Layouts_to_linearLayoutH)
+            getString(R.string.group_layouts_linar_v) -> navController.navigate(R.id.action_rv_Sub_grp_Layouts_to_linearLayoutV)
+            getString(R.string.group_layouts_frame) -> navController.navigate(R.id.action_rv_Sub_grp_Layouts_to_frameLayoutFrag)
+            getString(R.string.group_layouts_table) -> navController.navigate(R.id.action_rv_Sub_grp_Layouts_to_tableLayoutFrag)
 
         }
->>>>>>> acfcd7897845994e5bee359493eb9ce1c85a20e9
+
     }
 
 

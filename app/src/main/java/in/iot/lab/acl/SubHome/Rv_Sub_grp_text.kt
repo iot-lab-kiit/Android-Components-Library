@@ -19,7 +19,7 @@ class Rv_Sub_grp_text : Fragment(), RvClickHandler {
 
     var recyclerView: RecyclerView? = null
     var group = listOf<String>()
-    var logo = ArrayList<String>()
+    var logo = listOf<String>()
     lateinit var groupRvAdapters: GroupRvAdapters
 
 
@@ -35,7 +35,8 @@ class Rv_Sub_grp_text : Fragment(), RvClickHandler {
         val myFragmentView = inflater.inflate(R.layout.fragment_rv__sub_grp_text, container, false)
         val recyclerView = myFragmentView.findViewById<RecyclerView>(R.id.extended_rv_text)
 
-        logo = UiComponetsText.logo
+        logo = resources.getStringArray(R.array.text_logo_data).toList()
+
         group = resources.getStringArray(R.array.text_view_data).toList()
 
         //Set Adapter
