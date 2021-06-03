@@ -11,6 +11,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.FrameLayout
+import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import java.util.ArrayList
@@ -19,7 +20,7 @@ import java.util.ArrayList
 class Rv_Sub_grp_Containers : Fragment(),RvClickHandler {
     var recyclerView: RecyclerView? = null
     var fragView: FrameLayout? = null
-    var groups = ArrayList<String>()
+    var groups = listOf<String>()
     var logo = ArrayList<String>()
     lateinit var groupRvAdapters: GroupRvAdapters
 
@@ -36,12 +37,11 @@ class Rv_Sub_grp_Containers : Fragment(),RvClickHandler {
         val myFragmentView=inflater.inflate(R.layout.fragment_rv__sub_grp__containers, container, false)
         val recyclerView=myFragmentView.findViewById<RecyclerView>(R.id.extended_rv_containers)
 
-        groups = UiComponetsContainers.containers
+        groups = resources.getStringArray(R.array.container_data).toList()
         logo = UiComponetsContainers.logo
 
         //Set Adapter
 
-        //Set Adapter
         groupRvAdapters = GroupRvAdapters(groups, logo, context, this)
         recyclerView.adapter = groupRvAdapters
         val manager: RecyclerView.LayoutManager = GridLayoutManager(context, 2)
@@ -50,7 +50,19 @@ class Rv_Sub_grp_Containers : Fragment(),RvClickHandler {
         return myFragmentView
     }
 
+    //TO-DO:
     override fun onItemClick(position: Int) {
+        val str= groups[position];
+        val navController=findNavController();
+//        when(str){
+//            getString(R.string.group_container_spinner)->navController.navigate(R.id.action_rv_Sub_grp_button_to_toggelButtonFrag)
+//            getString(R.string.group_container_recycler_view)->navController.navigate(R.id.action_rv_Sub_grp_button_to_imageButtonFrag)
+//            getString(R.string.group_container_scroll_view)->navController.navigate(R.id.action_rv_Sub_grp_button_to_radioButtonFrag)
+//            getString(R.string.group_container_horizontal_scroll_view)->navController.navigate(R.id.action_rv_Sub_grp_button_to_switchFrag)
+//            getString(R.string.group_container_nested_scroll_view)->navController.navigate(R.id.action_rv_Sub_grp_button_to_checkboxFrag)
+//            getString(R.string.group_container_card_view)->navController.navigate(R.id.action_rv_Sub_grp_button_to_checkboxFrag)
+//
+//        }
     }
 
 

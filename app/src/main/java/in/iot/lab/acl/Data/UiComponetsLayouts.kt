@@ -10,7 +10,7 @@ object UiComponetsLayouts {
     init{
         layouts.add("Constraint Layout")
         layouts.add("Linear Layout(Horizontal)")
-        layouts.add("Constraint Layout(Vertical)")
+        layouts.add("Linear Layout(Vertical)")
         layouts.add("Frame Layout")
         layouts.add("Table Layout")
     }

@@ -17,10 +17,16 @@
         android:src="@drawable/main_gradient" />
 
     <TextView
+<<<<<<< HEAD
         android:id="@+id/code"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="TextView"
         android:layout_marginTop="20dp"/>
+=======
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/hello_Coders" />
+>>>>>>> acfcd7897845994e5bee359493eb9ce1c85a20e9
 
 </LinearLayout>

@@ -11,6 +11,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.FrameLayout
 import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import java.util.ArrayList
@@ -19,7 +20,7 @@ import java.util.ArrayList
 class Rv_Sub_grp_Layouts : Fragment(), RvClickHandler {
     var recyclerView: RecyclerView? = null
     var fragView: FrameLayout? = null
-    var groups = ArrayList<String>()
+    var groups = listOf<String>()
     var logo = ArrayList<String>()
     lateinit var groupRvAdapters: GroupRvAdapters
 
@@ -38,12 +39,11 @@ class Rv_Sub_grp_Layouts : Fragment(), RvClickHandler {
 
             val recyclerView = myFragmentView . findViewById < RecyclerView >(R.id.extended_rv_layouts)
 
-        groups = UiComponetsLayouts.layouts
+        groups = resources.getStringArray(R.array.layout_data).toList()
         logo = UiComponetsLayouts.logo
 
         //Set Adapter
 
-        //Set Adapter
         groupRvAdapters = GroupRvAdapters(groups, logo, context, this)
         recyclerView.adapter = groupRvAdapters
         val manager: RecyclerView.LayoutManager = GridLayoutManager(context, 2)
@@ -54,8 +54,21 @@ class Rv_Sub_grp_Layouts : Fragment(), RvClickHandler {
     }
 
     override fun onItemClick(position: Int) {
+<<<<<<< HEAD
 
 
+=======
+        val str= groups[position];
+        val navController=findNavController();
+        when(str){
+            getString(R.string.group_layouts_constraint)->navController.navigate(R.id.action_rv_Sub_grp_Layouts_to_constraintLayoutFrag)
+            getString(R.string.group_layouts_linar_h)->navController.navigate(R.id.action_rv_Sub_grp_Layouts_to_linearLayoutH)
+            getString(R.string.group_layouts_linar_v)->navController.navigate(R.id.action_rv_Sub_grp_Layouts_to_linearLayoutV)
+            getString(R.string.group_layouts_frame)->navController.navigate(R.id.action_rv_Sub_grp_Layouts_to_frameLayoutFrag)
+            getString(R.string.group_layouts_table)->navController.navigate(R.id.action_rv_Sub_grp_Layouts_to_tableLayoutFrag)
+
+        }
+>>>>>>> acfcd7897845994e5bee359493eb9ce1c85a20e9
     }
 
 
