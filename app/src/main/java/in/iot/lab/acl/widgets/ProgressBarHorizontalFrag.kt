@@ -1,16 +1,15 @@
-package `in`.iot.lab.acl.widgets
+package `in`.iot.lab.acl
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import `in`.iot.lab.acl.R
 import android.widget.TextView
 import io.noties.markwon.Markwon
 
+class ProgressBarHorizontalFrag : Fragment() {
 
-class ImageViewFrag : Fragment() {
 
     lateinit var code: TextView
     override fun onCreateView(
@@ -18,26 +17,21 @@ class ImageViewFrag : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        val myFragmentView = inflater.inflate(R.layout.fragment_image_view, container, false)
+        val myFragmentView = inflater.inflate(R.layout.fragment_progress_bar_horizontal, container, false)
         code = myFragmentView.findViewById<TextView>(R.id.code)
         val md = """
     #XML
     ```xml
-        <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="200dp"
-        android:layout_height="213dp"
-        android:layout_gravity="center"
+         <ProgressBar
+        android:id="@+id/progressHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
         android:layout_marginTop="20dp"
-        android:src="@drawable/main_gradient" />
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"/>
     ```
     #Kotlin
     ```kotlin
-    val img=findViewById<ImageView>(R.id.imageView)
-    //To Set button and do other action
-    img.setOnClickListener { 
-            Toast.makeText(requiredContext(),"You clicked on image",Toast.LENGTH_LONG).show()
-      }
+    val progressbar=findViewById<ProgressBar>(R.id.progressHorizontal)
     ```
     """.trimIndent()
 

@@ -1,16 +1,16 @@
-package `in`.iot.lab.acl.widgets
+package `in`.iot.lab.acl
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import `in`.iot.lab.acl.R
 import android.widget.TextView
 import io.noties.markwon.Markwon
 
 
-class ImageViewFrag : Fragment() {
+class DiscreteSeekBarFrag : Fragment() {
+
 
     lateinit var code: TextView
     override fun onCreateView(
@@ -18,26 +18,23 @@ class ImageViewFrag : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        val myFragmentView = inflater.inflate(R.layout.fragment_image_view, container, false)
+        val myFragmentView = inflater.inflate(R.layout.fragment_discrete_seek_bar, container, false)
         code = myFragmentView.findViewById<TextView>(R.id.code)
         val md = """
     #XML
     ```xml
-        <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="200dp"
-        android:layout_height="213dp"
-        android:layout_gravity="center"
-        android:layout_marginTop="20dp"
-        android:src="@drawable/main_gradient" />
+        <SeekBar
+        android:id="@+id/DiscreteSeekbar"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        style="@style/Widget.AppCompat.SeekBar.Discrete"
+        android:padding="10dp"/>
     ```
     #Kotlin
     ```kotlin
-    val img=findViewById<ImageView>(R.id.imageView)
-    //To Set button and do other action
-    img.setOnClickListener { 
-            Toast.makeText(requiredContext(),"You clicked on image",Toast.LENGTH_LONG).show()
-      }
+    val seek = findViewById(R.id.DiscreteSeekBar)
+    //To perform some action on the seekBar
+    seek?.setOnSeekBarChangeListener
     ```
     """.trimIndent()
 

@@ -54,6 +54,10 @@ class Rv_Sub_grp_Layouts : Fragment(), RvClickHandler {
     }
 
     override fun onItemClick(position: Int) {
+<<<<<<< HEAD
+
+
+=======
         val str= groups[position];
         val navController=findNavController();
         when(str){
@@ -64,6 +68,7 @@ class Rv_Sub_grp_Layouts : Fragment(), RvClickHandler {
             getString(R.string.group_layouts_table)->navController.navigate(R.id.action_rv_Sub_grp_Layouts_to_tableLayoutFrag)
 
         }
+>>>>>>> acfcd7897845994e5bee359493eb9ce1c85a20e9
     }
 
 

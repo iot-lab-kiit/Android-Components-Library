@@ -1,16 +1,15 @@
-package `in`.iot.lab.acl.widgets
+package `in`.iot.lab.acl
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import `in`.iot.lab.acl.R
 import android.widget.TextView
 import io.noties.markwon.Markwon
 
 
-class ImageViewFrag : Fragment() {
+class SearchViewFrag : Fragment() {
 
     lateinit var code: TextView
     override fun onCreateView(
@@ -18,26 +17,25 @@ class ImageViewFrag : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        val myFragmentView = inflater.inflate(R.layout.fragment_image_view, container, false)
+        val myFragmentView = inflater.inflate(R.layout.fragment_search_view, container, false)
         code = myFragmentView.findViewById<TextView>(R.id.code)
         val md = """
     #XML
     ```xml
-        <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="200dp"
-        android:layout_height="213dp"
+       <SearchView
+        android:id="@+id/searchView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:queryHint="Search Here"
+        android:iconifiedByDefault="false"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
-        android:src="@drawable/main_gradient" />
+        />
     ```
     #Kotlin
     ```kotlin
-    val img=findViewById<ImageView>(R.id.imageView)
-    //To Set button and do other action
-    img.setOnClickListener { 
-            Toast.makeText(requiredContext(),"You clicked on image",Toast.LENGTH_LONG).show()
-      }
+    val searchView = findViewById<SearchView>(R.id.searchView)
+    
     ```
     """.trimIndent()
 

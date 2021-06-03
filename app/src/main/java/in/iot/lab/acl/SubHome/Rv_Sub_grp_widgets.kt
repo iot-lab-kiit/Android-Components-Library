@@ -54,23 +54,42 @@ class Rv_Sub_grp_widgets : Fragment(), RvClickHandler {
     }
 
     override fun onItemClick(position: Int) {
-        val str= groups[position];
-        val navController=findNavController();
+
+//
+//        val str= groups[position];
+//        val navController=findNavController();
 //        when(str){
-//            getString(R.string.group_widget_image_view)->navController.navigate(R.id.action_rv_Sub_grp_button_to_toggelButtonFrag)
-//            getString(R.string.group_widget_web_view)->navController.navigate(R.id.action_rv_Sub_grp_button_to_imageButtonFrag)
-//            getString(R.string.group_widget_vedio_view)->navController.navigate(R.id.action_rv_Sub_grp_button_to_radioButtonFrag)
-//            getString(R.string.group_widget_calender_view)->navController.navigate(R.id.action_rv_Sub_grp_button_to_switchFrag)
-//            getString(R.string.group_widget_progress_spiral)->navController.navigate(R.id.action_rv_Sub_grp_button_to_checkboxFrag)
-//            getString(R.string.group_widget_progress_horizontal)->navController.navigate(R.id.action_rv_Sub_grp_button_to_checkboxFrag)
-//            getString(R.string.group_widget_seek_bar)->navController.navigate(R.id.action_rv_Sub_grp_button_to_checkboxFrag)
-//            getString(R.string.group_widget_seek_bar_discrete)->navController.navigate(R.id.action_rv_Sub_grp_button_to_checkboxFrag)
-//            getString(R.string.group_widget_start_raiting)->navController.navigate(R.id.action_rv_Sub_grp_button_to_checkboxFrag)
-//            getString(R.string.group_widget_search_view)->navController.navigate(R.id.action_rv_Sub_grp_button_to_checkboxFrag)
-//            getString(R.string.group_widget_texture_view)->navController.navigate(R.id.action_rv_Sub_grp_button_to_checkboxFrag)
-//            getString(R.string.group_widget_surface_view)->navController.navigate(R.id.action_rv_Sub_grp_button_to_checkboxFrag)
+//            "Image View"->navController.navigate(R.id.action_rv_Sub_grp_widgets_to_imageViewFrag)
+//            "Web View"->navController.navigate(R.id.action_rv_Sub_grp_widgets_to_webViewFrag)
+//            "Video View"->navController.navigate(R.id.action_rv_Sub_grp_widgets_to_videoViewFrag)
+//            "Calendar View"->navController.navigate(R.id.action_rv_Sub_grp_widgets_to_calendarViewFragment)
+//            "Progress Bar(Spiral)"->navController.navigate(R.id.action_rv_Sub_grp_widgets_to_progressBarSpiralFrag)
+//            "Progress Bar(Horizontal)"->navController.navigate(R.id.action_rv_Sub_grp_widgets_to_progressBarHorizontalFrag)
+//            "Seek Bar"->navController.navigate(R.id.action_rv_Sub_grp_widgets_to_seekBarFrag)
+//            "Seek Bar(Discrete)"->navController.navigate(R.id.action_rv_Sub_grp_widgets_to_discreteSeekBarFrag)
+//            "Star Rating"->navController.navigate(R.id.action_rv_Sub_grp_widgets_to_ratingBarFrag)
+//            "Search View"->navController.navigate(R.id.action_rv_Sub_grp_widgets_to_searchViewFrag)
+//            "Texture View"->navController.navigate(R.id.action_rv_Sub_grp_widgets_to_textureViewFrag)
+//            "Surface View"->navController.navigate(R.id.action_rv_Sub_grp_widgets_to_surfaceViewFrag)
 //
 //        }
+        val str= groups[position];
+        val navController=findNavController();
+        when(str){
+            getString(R.string.group_widget_image_view)->navController.navigate(R.id.action_rv_Sub_grp_button_to_toggelButtonFrag)
+            getString(R.string.group_widget_web_view)->navController.navigate(R.id.action_rv_Sub_grp_button_to_imageButtonFrag)
+            getString(R.string.group_widget_vedio_view)->navController.navigate(R.id.action_rv_Sub_grp_button_to_radioButtonFrag)
+            getString(R.string.group_widget_calender_view)->navController.navigate(R.id.action_rv_Sub_grp_button_to_switchFrag)
+            getString(R.string.group_widget_progress_spiral)->navController.navigate(R.id.action_rv_Sub_grp_button_to_checkboxFrag)
+            getString(R.string.group_widget_progress_horizontal)->navController.navigate(R.id.action_rv_Sub_grp_button_to_checkboxFrag)
+            getString(R.string.group_widget_seek_bar)->navController.navigate(R.id.action_rv_Sub_grp_button_to_checkboxFrag)
+            getString(R.string.group_widget_seek_bar_discrete)->navController.navigate(R.id.action_rv_Sub_grp_button_to_checkboxFrag)
+            getString(R.string.group_widget_start_raiting)->navController.navigate(R.id.action_rv_Sub_grp_button_to_checkboxFrag)
+            getString(R.string.group_widget_search_view)->navController.navigate(R.id.action_rv_Sub_grp_button_to_checkboxFrag)
+            getString(R.string.group_widget_texture_view)->navController.navigate(R.id.action_rv_Sub_grp_button_to_checkboxFrag)
+            getString(R.string.group_widget_surface_view)->navController.navigate(R.id.action_rv_Sub_grp_button_to_checkboxFrag)
+
+        }
     }
 
 
