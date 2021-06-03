@@ -21,6 +21,12 @@
         <item>@string/group_toast</item>
     </string-array>
 
+    <string-array name="text_logo_data">
+        <item>"@drawable/text_view"</item>
+        <item>"@drawable/edit_text"</item>
+        <item>"@drawable/toast"</item>
+    </string-array>
+
 
     //Button Data
     <string name="group_button_toggle">Toggle Button</string>
@@ -40,6 +46,15 @@
         <item>@string/group_button_floating_action</item>
     </string-array>
 
+    <string-array name="button_logo_data">
+        <item>"@drawable/toggle_button"</item>
+        <item>"@drawable/image_button"</item>
+        <item>"@drawable/radio_button"</item>
+        <item>"@drawable/switch_button"</item>
+        <item>"@drawable/check_box"</item>
+        <item>"@drawable/floating_button"</item>
+    </string-array>
+
 
     //Layout Data
     <string name="group_layouts_constraint">Constraint Layout</string>
@@ -55,8 +70,17 @@
         <item>@string/group_layouts_linar_v</item>
         <item>@string/group_layouts_frame</item>
         <item>@string/group_layouts_table</item>
+
     </string-array>
 
+
+    <string-array name="layout_logo_data">
+        <item>"@drawable/constraint"</item>
+        <item>"@drawable/linear_horizontal"</item>
+        <item>"@drawable/linear_vertical"</item>
+        <item>"@drawable/frame"</item>
+        <item>"@drawable/table_layout"</item>
+    </string-array>
 
     //Derived Component Data
 
@@ -70,6 +94,14 @@
         <item>@string/group_derived_image_switcher</item>
         <item>@string/group_derived_text_switcher</item>
         <item>@string/group_derived_alert_dialog</item>
+    </string-array>
+
+
+    <string-array name="derived_compo_logo_data">
+        <item>"@drawable/auto_complete_text"</item>
+        <item>"@drawable/image_switch"</item>
+        <item>"@drawable/text_switch"</item>
+        <item>"@drawable/alert"</item>
     </string-array>
 
 
@@ -91,10 +123,19 @@
     </string-array>
 
 
+
+    <string-array name="container_logo_data">
+        <item>"@drawable/spinner"</item>
+        <item>"@drawable/recycler"</item>
+        <item>"@drawable/scroll"</item>
+        <item>"@drawable/scroll_hori"</item>
+        <item>"@drawable/scroll_nested"</item>
+        <item>"@drawable/card"</item>
+    </string-array>
+
+
     //Widget Data
     <string name="group_widget_image_view">Image View</string>
-    <string name="group_widget_web_view">Web View</string>
-    <string name="group_widget_vedio_view">Video View</string>
     <string name="group_widget_calender_view">Calendar View</string>
     <string name="group_widget_progress_spiral">Progress Bar(Spiral)</string>
     <string name="group_widget_progress_horizontal">Progress Bar(Horizontal)</string>
@@ -102,14 +143,10 @@
     <string name="group_widget_seek_bar_discrete">Seek Bar(Discrete)</string>
     <string name="group_widget_start_raiting">Star Rating</string>
     <string name="group_widget_search_view">Search View</string>
-    <string name="group_widget_texture_view">Texture View</string>
-    <string name="group_widget_surface_view">Surface View</string>
 
 
     <string-array name="widget_data">
         <item>@string/group_widget_image_view</item>
-        <item>@string/group_widget_web_view</item>
-        <item>@string/group_widget_vedio_view</item>
         <item>@string/group_widget_calender_view</item>
         <item>@string/group_widget_progress_spiral</item>
         <item>@string/group_widget_progress_horizontal</item>
@@ -117,11 +154,47 @@
         <item>@string/group_widget_seek_bar_discrete</item>
         <item>@string/group_widget_start_raiting</item>
         <item>@string/group_widget_search_view</item>
-        <item>@string/group_widget_texture_view</item>
-        <item>@string/group_widget_surface_view</item>
     </string-array>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string-array name="widget_logo_data">
+        <item>"@drawable/image_view"</item>
+        <item>"@drawable/calander"</item>
+        <item>"@drawable/progress_spiral"</item>
+        <item>"@drawable/progress_bar_hori"</item>
+        <item>"@drawable/seek"</item>
+        <item>"@drawable/seek_descreet"</item>
+        <item>"@drawable/star_rating"</item>
+        <item>"@drawable/search"</item>
+    </string-array>
+
+
+    //Basic Data
+    <string name="basic_text">Text</string>
+    <string name="basic_button">Button</string>
+    <string name="basic_widgets">Widgets/Views</string>
+    <string name="basic_layouts">Layouts</string>
+    <string name="basic_dc">Derived Components</string>
+    <string name="basic_containers">Containers</string>
+
+    <string-array name="basic_data">
+        <item>@string/basic_text</item>
+        <item>@string/basic_button</item>
+        <item>@string/basic_widgets</item>
+        <item>@string/basic_layouts</item>
+        <item>@string/basic_dc</item>
+        <item>@string/basic_containers</item>
+
+    </string-array>
+
+    <string-array name="basic_logo">
+        <item>"@drawable/text"</item>
+        <item>"@drawable/button"</item>
+        <item>"@drawable/view"</item>
+        <item>"@drawable/layout"</item>
+        <item>"@drawable/derived"</item>
+        <item>"@drawable/container"</item>
+    </string-array>
 
 
 </resources>

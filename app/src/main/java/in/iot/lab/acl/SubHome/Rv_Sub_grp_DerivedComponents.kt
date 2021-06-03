@@ -22,7 +22,7 @@ class Rv_Sub_grp_DerivedComponents : Fragment(), RvClickHandler {
     var recyclerView: RecyclerView? = null
     var fragView: FrameLayout? = null
     var groups = listOf<String>()
-    var logo = ArrayList<String>()
+    var logo = listOf<String>()
     lateinit var groupRvAdapters: GroupRvAdapters
 
 
@@ -42,7 +42,8 @@ class Rv_Sub_grp_DerivedComponents : Fragment(), RvClickHandler {
         val recyclerView = myFragmentView.findViewById<RecyclerView>(R.id.extended_rv_derived)
 
         groups = resources.getStringArray(R.array.derived_component_data).toList()
-        logo = UiComponetsDerived.logo
+        logo = resources.getStringArray(R.array.derived_compo_logo_data).toList()
+
 
         //Set Adapter
 

@@ -21,7 +21,7 @@ class Rv_Sub_grp_Containers : Fragment(),RvClickHandler {
     var recyclerView: RecyclerView? = null
     var fragView: FrameLayout? = null
     var groups = listOf<String>()
-    var logo = ArrayList<String>()
+    var logo = listOf<String>()
     lateinit var groupRvAdapters: GroupRvAdapters
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -38,7 +38,8 @@ class Rv_Sub_grp_Containers : Fragment(),RvClickHandler {
         val recyclerView=myFragmentView.findViewById<RecyclerView>(R.id.extended_rv_containers)
 
         groups = resources.getStringArray(R.array.container_data).toList()
-        logo = UiComponetsContainers.logo
+        logo = resources.getStringArray(R.array.container_logo_data).toList()
+
 
         //Set Adapter
 
@@ -52,8 +53,8 @@ class Rv_Sub_grp_Containers : Fragment(),RvClickHandler {
 
     //TO-DO:
     override fun onItemClick(position: Int) {
-        val str= groups[position];
-        val navController=findNavController();
+//        val str= groups[position];
+//        val navController=findNavController();
 //        when(str){
 //            getString(R.string.group_container_spinner)->navController.navigate(R.id.action_rv_Sub_grp_button_to_toggelButtonFrag)
 //            getString(R.string.group_container_recycler_view)->navController.navigate(R.id.action_rv_Sub_grp_button_to_imageButtonFrag)
