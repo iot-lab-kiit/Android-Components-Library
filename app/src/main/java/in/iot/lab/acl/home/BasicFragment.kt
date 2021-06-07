@@ -31,7 +31,6 @@ class Basic : Fragment(),RvClickHandler  {
         // Inflate the layout for this fragment
         val myFragmentView=inflater.inflate(R.layout.fragment_basic, container, false)
         val recyclerView=myFragmentView.findViewById<RecyclerView>(R.id.basic_rv)
-        var groupRvAdapters: GroupRvAdapters
 
         //Set Adapter
         groups = resources.getStringArray(R.array.basic_data).toList()
@@ -39,7 +38,7 @@ class Basic : Fragment(),RvClickHandler  {
 
 //        Log.d("Img array",logo.toString())
 
-        groupRvAdapters = GroupRvAdapters(groups, logo, context,this)
+        val groupRvAdapters= GroupRvAdapters(groups, logo, context,this)
         recyclerView.adapter = groupRvAdapters
         val manager: RecyclerView.LayoutManager = GridLayoutManager(context, 2)
         recyclerView.layoutManager = manager
