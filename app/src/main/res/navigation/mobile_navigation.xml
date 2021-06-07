@@ -34,7 +34,14 @@
         android:id="@+id/advancedFragment"
         android:name="in.iot.lab.acl.AdvancedFragment"
         android:label="fragment_advanced"
-        tools:layout="@layout/fragment_advanced" />
+        tools:layout="@layout/fragment_advanced" >
+        <action
+            android:id="@+id/action_advancedFragment_to_fragment_adv__sub__lottie"
+            app:destination="@id/fragment_adv__sub__lottie" />
+        <action
+            android:id="@+id/action_advancedFragment_to_fragment_adv__sub__Confetti"
+            app:destination="@id/fragment_adv__sub__Confetti" />
+    </fragment>
     <fragment
         android:id="@+id/dashboardFragment"
         android:name="in.iot.lab.acl.DashboardFragment"
@@ -316,4 +323,14 @@
         android:name="in.iot.lab.acl.derivedComponent.TextSwitcherFrag"
         android:label="fragment_text_switcher"
         tools:layout="@layout/fragment_text_switcher" />
+    <fragment
+        android:id="@+id/fragment_adv__sub__Confetti"
+        android:name="in.iot.lab.acl.SubAdvanced.fragment_adv__sub__Confetti"
+        android:label="fragment_adv__sub___confetti"
+        tools:layout="@layout/fragment_adv__sub___confetti" />
+    <fragment
+        android:id="@+id/fragment_adv__sub__lottie"
+        android:name="in.iot.lab.acl.SubAdvanced.fragment_adv__sub__lottie"
+        android:label="fragment_adv__sub__lottie"
+        tools:layout="@layout/fragment_adv__sub__lottie" />
 </navigation>
