@@ -53,17 +53,21 @@ class Rv_Sub_grp_Containers : Fragment(),RvClickHandler {
 
     //TO-DO:
     override fun onItemClick(position: Int) {
-//        val str= groups[position];
-//        val navController=findNavController();
-//        when(str){
-//            getString(R.string.group_container_spinner)->navController.navigate(R.id.action_rv_Sub_grp_button_to_toggelButtonFrag)
-//            getString(R.string.group_container_recycler_view)->navController.navigate(R.id.action_rv_Sub_grp_button_to_imageButtonFrag)
-//            getString(R.string.group_container_scroll_view)->navController.navigate(R.id.action_rv_Sub_grp_button_to_radioButtonFrag)
-//            getString(R.string.group_container_horizontal_scroll_view)->navController.navigate(R.id.action_rv_Sub_grp_button_to_switchFrag)
+        val str= groups[position];
+        val navController=findNavController();
+        when(str){
+            getString(R.string.group_container_spinner)->navController.navigate(R.id.action_rv_Sub_grp_Containers_to_spinnerFrag)
+            getString(R.string.group_container_scroll_view)->navController.navigate(R.id.action_rv_Sub_grp_Containers_to_scrollViewFrag)
+            getString(R.string.group_container_horizontal_scroll_view)->navController.navigate(R.id.action_rv_Sub_grp_Containers_to_horizontalScrollVewFrag)
+            getString(R.string.group_container_card_view)->navController.navigate(R.id.action_rv_Sub_grp_Containers_to_cardViewFragment)
+            getString(R.string.group_container_nested_scroll_view)->navController.navigate(R.id.action_rv_Sub_grp_Containers_to_nestedScrollViewFrag)
+            getString(R.string.group_container_recycler_view)->navController.navigate(R.id.action_rv_Sub_grp_Containers_to_recyclerViewFrag)
+
+
 //            getString(R.string.group_container_nested_scroll_view)->navController.navigate(R.id.action_rv_Sub_grp_button_to_checkboxFrag)
 //            getString(R.string.group_container_card_view)->navController.navigate(R.id.action_rv_Sub_grp_button_to_checkboxFrag)
 //
-//        }
+        }
     }
 
 
