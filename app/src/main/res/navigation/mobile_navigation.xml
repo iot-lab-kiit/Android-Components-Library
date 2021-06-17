@@ -90,7 +90,26 @@
         android:id="@+id/rv_Sub_grp_Containers"
         android:name="in.iot.lab.acl.SubHome.Rv_Sub_grp_Containers"
         android:label="fragment_rv__sub_grp__containers"
-        tools:layout="@layout/fragment_rv__sub_grp__containers" />
+        tools:layout="@layout/fragment_rv__sub_grp__containers" >
+        <action
+            android:id="@+id/action_rv_Sub_grp_Containers_to_spinnerFrag"
+            app:destination="@id/spinnerFrag" />
+        <action
+            android:id="@+id/action_rv_Sub_grp_Containers_to_scrollViewFrag"
+            app:destination="@id/scrollViewFrag" />
+        <action
+            android:id="@+id/action_rv_Sub_grp_Containers_to_horizontalScrollVewFrag"
+            app:destination="@id/horizontalScrollVewFrag" />
+        <action
+            android:id="@+id/action_rv_Sub_grp_Containers_to_cardViewFragment"
+            app:destination="@id/cardViewFragment" />
+        <action
+            android:id="@+id/action_rv_Sub_grp_Containers_to_nestedScrollViewFrag"
+            app:destination="@id/nestedScrollViewFrag" />
+        <action
+            android:id="@+id/action_rv_Sub_grp_Containers_to_recyclerViewFrag"
+            app:destination="@id/recyclerViewFrag" />
+    </fragment>
     <fragment
         android:id="@+id/rv_Sub_grp_DerivedComponents"
         android:name="in.iot.lab.acl.SubHome.Rv_Sub_grp_DerivedComponents"
@@ -333,4 +352,34 @@
         android:name="in.iot.lab.acl.SubAdvanced.fragment_adv__sub__lottie"
         android:label="fragment_adv__sub__lottie"
         tools:layout="@layout/fragment_adv__sub__lottie" />
+    <fragment
+        android:id="@+id/spinnerFrag"
+        android:name="in.iot.lab.acl.SpinnerFrag"
+        android:label="fragment_spinner"
+        tools:layout="@layout/fragment_spinner" />
+    <fragment
+        android:id="@+id/scrollViewFrag"
+        android:name="in.iot.lab.acl.ScrollViewFrag"
+        android:label="fragment_scroll_view"
+        tools:layout="@layout/fragment_scroll_view" />
+    <fragment
+        android:id="@+id/horizontalScrollVewFrag"
+        android:name="in.iot.lab.acl.HorizontalScrollVewFrag"
+        android:label="fragment_horizontal_scroll_vew"
+        tools:layout="@layout/fragment_horizontal_scroll_vew" />
+    <fragment
+        android:id="@+id/cardViewFragment"
+        android:name="in.iot.lab.acl.CardViewFragment"
+        android:label="fragment_card_view"
+        tools:layout="@layout/fragment_card_view" />
+    <fragment
+        android:id="@+id/nestedScrollViewFrag"
+        android:name="in.iot.lab.acl.NestedScrollViewFrag"
+        android:label="fragment_nested_scroll_view"
+        tools:layout="@layout/fragment_nested_scroll_view" />
+    <fragment
+        android:id="@+id/recyclerViewFrag"
+        android:name="in.iot.lab.acl.RecyclerViewFrag"
+        android:label="fragment_recycler_view"
+        tools:layout="@layout/fragment_recycler_view" />
 </navigation>

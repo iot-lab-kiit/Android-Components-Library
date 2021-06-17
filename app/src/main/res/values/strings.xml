@@ -132,6 +132,25 @@
         <item>"@drawable/card"</item>
     </string-array>
 
+    <string-array name="planets_array">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+
+    <string name="nested_scroll_text">This is a tutorial on NestedScrollView!
+        NestedScrollView is just like ScrollView, but it supports acting as both a nested
+        scrolling parent and child on both new and old versions of Android. Nested scrolling
+        is enabled by default. NestedScrollView is used when there is need for scrolling inside
+        another scrolling view. Normally this would be difficult task because system would be
+        unable to decide which view to scroll. This is where NestedScrollView comes into role.
+    </string>
+
 
     //Widget Data
     <string name="group_widget_image_view">Image View</string>
