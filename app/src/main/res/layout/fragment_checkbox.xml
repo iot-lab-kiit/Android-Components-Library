@@ -11,6 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Simple CheckBox"
+        android:textColor="@color/black"
         android:checked="true"/>
 
     <TextView
@@ -18,6 +19,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/code"
         android:text="asgfdaac"
+        android:textColor="@color/black"
         android:layout_marginTop="20dp"/>
 
 

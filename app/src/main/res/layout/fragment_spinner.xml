@@ -10,6 +10,8 @@
         android:id="@+id/spinner"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:background="@color/grey"
         android:layout_marginTop="20dp"
         android:layout_gravity="center"/>
 
@@ -18,14 +20,16 @@
         android:layout_marginTop="50dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@color/black"
         android:layout_gravity="center"
         android:text="You selected : Mars" />
 
     <TextView
         android:id="@+id/code"
-        android:layout_marginTop="250dp"
+        android:layout_marginTop="50dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:textColor="@color/black"
         android:text="@string/hello_blank_fragment" />
 
 </LinearLayout>

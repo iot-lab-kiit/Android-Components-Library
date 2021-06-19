@@ -14,6 +14,7 @@
         android:textSize="20sp"
         android:textAlignment="center"
         android:layout_gravity="center"
+        android:textColor="@color/black"
         android:layout_marginTop="10dp"
         android:padding="10dp"
         />
@@ -23,6 +24,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/code"
         android:text="asgfdaac"
+        android:textColor="@color/black"
         android:layout_marginTop="20dp"/>
 
 

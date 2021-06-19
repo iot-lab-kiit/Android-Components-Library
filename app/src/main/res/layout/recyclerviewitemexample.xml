@@ -10,6 +10,7 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:padding="15dp"
+        android:textColor="@color/black"
         android:layout_margin="20dp"
         android:text="I am textView used to show RecyclerView example"
         app:layout_constraintEnd_toEndOf="parent"

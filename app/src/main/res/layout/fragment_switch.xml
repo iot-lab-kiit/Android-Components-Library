@@ -14,6 +14,7 @@
         android:textOff="OFF"
         android:textOn="ON"
         android:id="@+id/Switch"
+        android:textColor="@color/black"
         android:layout_gravity="center"
         tools:ignore="UseSwitchCompatOrMaterialXml" />
 
@@ -21,6 +22,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/code"
+        android:textColor="@color/black"
         android:text="asgfdaac"
         android:layout_marginTop="20dp"/>
 

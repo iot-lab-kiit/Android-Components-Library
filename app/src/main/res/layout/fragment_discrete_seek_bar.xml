@@ -10,12 +10,14 @@
         android:id="@+id/DiscreteSeekbar"
         android:layout_width="match_parent"
         android:layout_height="100dp"
+        android:background="@color/grey"
         style="@style/Widget.AppCompat.SeekBar.Discrete"
         android:padding="10dp"/>
     <TextView
         android:id="@+id/code"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:textColor="@color/black"
         android:text="@string/hello_Coders"/>
 
 </LinearLayout>

@@ -8,12 +8,14 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
         android:layout_width="match_parent"
+        tools:listitem="@layout/recyclerviewitemexample"
         android:layout_height="500dp"
         android:layout_marginTop="20dp">
     </androidx.recyclerview.widget.RecyclerView>
     <TextView
         android:id="@+id/code"
         android:layout_width="match_parent"
+        android:textColor="@color/black"
         android:layout_height="match_parent"
         android:text="@string/hello_blank_fragment" />
 

@@ -14,6 +14,7 @@
         android:textStyle="bold"
         android:padding="10dp"
         android:layout_marginTop="10dp"
+        android:textColor="@color/black"
         android:text="A ConstraintLayout is a android.view.ViewGroup which allows you to position and size widgets in a flexible way." />
 
     <TextView
@@ -21,6 +22,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="44dp"
+        android:textColor="@color/black"
         android:text="asgfdaac" />
 
 </LinearLayout>

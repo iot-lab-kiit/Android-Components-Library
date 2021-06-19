@@ -10,11 +10,13 @@
         android:id="@+id/seekBar"
         android:layout_width="match_parent"
         android:layout_height="100dp"
+        android:background="@color/grey"
         android:padding="20dp"/>
     <TextView
         android:id="@+id/code"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:textColor="@color/black"
         android:text="@string/hello_Coders" />
 
 </LinearLayout>

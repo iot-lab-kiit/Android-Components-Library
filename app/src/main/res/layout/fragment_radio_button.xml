@@ -16,6 +16,7 @@
             android:id="@+id/radioButton1"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:layout_gravity="center_horizontal"
             android:text="Radio Button 1"
             android:layout_marginTop="20dp"
@@ -26,6 +27,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="Radio Button 2"
+            android:textColor="@color/black"
             android:layout_marginTop="10dp"
             android:textSize="20sp" />
     </RadioGroup>
@@ -34,6 +36,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/code"
+        android:textColor="@color/black"
         android:text="asgfdaac"
         android:layout_marginTop="20dp"/>
 

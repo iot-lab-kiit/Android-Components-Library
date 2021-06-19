@@ -14,6 +14,9 @@
         android:completionThreshold="1"
         android:hint="Enter Name"
         android:padding="15dp"
+        android:backgroundTint="@color/black"
+        android:foregroundTint="@color/black"
+        android:textColorHint="@color/black"
         android:textColor="@color/black" />
 
     <TextView
@@ -21,6 +24,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
+        android:textColor="@color/black"
         android:layout_marginRight="20dp" />
 
 
@@ -29,6 +33,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/code"
         android:text="asgfdaac"
+        android:textColor="@color/black"
         android:layout_marginTop="20dp"/>
 
 
