@@ -10,12 +10,14 @@
         android:layout_width="match_parent"
         android:layout_height="250dp"
         android:id="@+id/textureView"
+        android:textColor="@color/black"
         android:layout_marginTop="20dp"
         />
     <TextView
         android:id="@+id/code"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:textColor="@color/black"
         android:text="@string/hello_Coders"
         android:layout_marginTop="20dp"/>
 

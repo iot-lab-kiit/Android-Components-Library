@@ -32,6 +32,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="15sp"
+        android:textColor="@color/black"
         android:textStyle="bold"
         android:padding="10dp"
         android:layout_marginTop="30dp"
@@ -43,6 +44,7 @@
         android:id="@+id/code"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textColor="@color/black"
         android:layout_marginTop="44dp"
         android:text="asgfdaac" />
 

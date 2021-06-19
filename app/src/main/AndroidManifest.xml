@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-
     package="in.iot.lab.acl">
+
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
@@ -11,8 +11,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidComponentLibrary">
-        <activity android:name=".home.MainActivity"></activity>
-        <activity android:name=".RvSubGrpPage" />
+        <activity android:name=".home.MainActivity" />
         <activity
             android:name=".splash.Splash_1"
             android:theme="@style/Theme.MaterialComponents.Light.NoActionBar">

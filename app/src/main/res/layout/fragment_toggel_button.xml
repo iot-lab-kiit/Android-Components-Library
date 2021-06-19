@@ -12,6 +12,7 @@
         android:background="#A100FF"
         android:id="@+id/toggleBtn"
         android:layout_gravity="center"
+        android:textColor="@color/black"
         android:layout_marginTop="10dp"
         android:textOff="This Text Is Shown When Button Is Set For OFF"
         android:textOn="This Text Is Shown When Button Is Set For ON"
@@ -20,6 +21,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textColor="@color/black"
         android:id="@+id/code"
         android:text="asgfdaac"
         android:layout_marginTop="20dp"/>

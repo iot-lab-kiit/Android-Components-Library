@@ -3,7 +3,7 @@
     <string name="app_name">Android Component Library</string>
     <string name="title_basics">Basics</string>
     <string name="title_advance">Advance</string>
-    <string name="title_DashBoard">Dashboard</string>
+    <string name="title_AboutUs">About Us</string>
     <string name="Developed_BY">IOT LABS</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_Coders">Hello Coders</string>
@@ -232,5 +232,7 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="lottie_def">Lottie is a mobile library for Android and iOS that parses Adobe After Effects animations exported as json with Bodymovin and renders them natively on mobile!</string>
 
+    <string name="about_us">IoT Lab at KIIT is a group of committed students who work under the guidance of a group of capable and supportive teachers who guide us through each phase and stage. IoT Lab is a research forum that examines the possibilities of crowd sourcing and the Internet of Things for trans disciplinary research and initiatives that involve greater end-user participation. We currently have a number of successful goods and prototypes. We also provide web development and app development services.</string>
+    <string name="about_app"><![CDATA[Android Component Library brings you easy and optimized visuals for the explanation of the code. It’s an android development app built using all the UI components. In this, we have visually explained the code using UI components and all the code is available in UI & Kotlin. Further updates will be available soon.]]></string>
 
 </resources>

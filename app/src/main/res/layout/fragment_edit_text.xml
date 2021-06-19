@@ -11,6 +11,10 @@
         android:id="@+id/editText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textColorHint="@color/black"
+        android:foregroundTint="@color/black"
+        android:shadowColor="@color/black"
+        android:textColor="@color/black"
         android:hint="Enter Test here"
         android:textAlignment="center"/>
 
@@ -19,6 +23,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/code"
         android:text="asgfdaac"
+        android:textColor="@color/black"
         android:layout_marginTop="20dp"/>
 
 

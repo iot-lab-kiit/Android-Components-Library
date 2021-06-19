@@ -18,36 +18,43 @@
                 android:padding="45dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textColor="@color/black"
                 android:text="Item 1"/>
             <TextView
                 android:padding="45dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textColor="@color/black"
                 android:text="Item 2"/>
             <TextView
                 android:padding="45dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textColor="@color/black"
                 android:text="Item 3"/>
             <TextView
                 android:padding="45dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textColor="@color/black"
                 android:text="Item 4"/>
             <TextView
                 android:padding="45dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textColor="@color/black"
                 android:text="Item 5"/>
             <TextView
                 android:padding="45dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textColor="@color/black"
                 android:text="Item 6"/>
             <TextView
                 android:padding="45dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textColor="@color/black"
                 android:text="Item 7"/>
 </LinearLayout>
 
@@ -58,6 +65,7 @@
         android:id="@+id/code"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:textColor="@color/black"
         android:text="@string/hello_blank_fragment" />
 
 </LinearLayout>

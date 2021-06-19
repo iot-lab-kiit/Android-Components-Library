@@ -17,6 +17,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textColor="@color/black"
                 android:layout_column="1"
                 android:text="Time" />
 
@@ -24,6 +25,7 @@
                 android:id="@+id/textClock"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textColor="@color/black"
                 android:layout_column="2" />
 
         </TableRow>
@@ -33,12 +35,14 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textColor="@color/black"
                 android:layout_column="1"
                 android:text="First Name" />
 
             <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textColor="@color/black"
                 android:width="200px" />
         </TableRow>
 
@@ -47,12 +51,14 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textColor="@color/black"
                 android:layout_column="1"
                 android:text="Last Name" />
 
             <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textColor="@color/black"
                 android:width="100px" />
         </TableRow>
 
@@ -75,6 +81,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:padding="10dp"
+        android:textColor="@color/black"
         android:text="Android TableLayout going to be arranged groups of views into rows and columns. You will use the `TableRow` element to build a row in the table. Each row has zero or more cells; each cell can hold one View object."
         android:textSize="15sp"
         android:textStyle="bold" />
@@ -84,6 +91,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="44dp"
+        android:textColor="@color/black"
         android:text="asgfdaac" />
 
 

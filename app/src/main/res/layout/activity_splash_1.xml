@@ -12,6 +12,7 @@
         android:layout_height="200dp"
         android:src="@drawable/acl_logo"
         android:layout_centerHorizontal="true"
+
         android:layout_marginTop="100dp"
         android:id="@+id/logo"
         android:padding="20dp"
