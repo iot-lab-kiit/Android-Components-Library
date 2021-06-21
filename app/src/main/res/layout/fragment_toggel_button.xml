@@ -4,7 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".button.ToggelButtonFrag">
+    tools:context=".button.ToggelButtonFrag"
+    android:padding="10dp">
 
     <ToggleButton
         android:layout_width="wrap_content"
