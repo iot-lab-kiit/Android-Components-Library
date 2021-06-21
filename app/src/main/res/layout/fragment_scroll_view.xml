@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".ScrollViewFrag">
-    
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="300dp">
@@ -60,7 +60,7 @@
 
     </ScrollView>
 
-    
+
     <TextView
         android:id="@+id/code"
         android:layout_width="match_parent"
