@@ -3,8 +3,7 @@ name: Android Built
 on:
   push:
     branches:
-      - master
-
+      - main
 
 
 jobs:
