@@ -22,11 +22,13 @@ jobs:
       - name: Build Debug APK
         run: ./gradlew assembleDebug
       - name: Releasing using Hub
-        uses: ShaunLWM/action-release-debugapk@master
-        env:
-          GITHUB_TOKEN: ${{ secrets.TOKEN }}
-          APP_FOLDER: app
-          RELEASE_TITLE: New Build
+      - name: Releasing APK
+        run: ./scripts/release_apk.sh
+#        uses: ShaunLWM/action-release-debugapk@master
+#        env:
+#          GITHUB_TOKEN: ${{ secrets.TOKEN }}
+#          APP_FOLDER: app
+#          RELEASE_TITLE: New Build
 #
 #jobs:
 #  test:
