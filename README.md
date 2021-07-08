@@ -27,6 +27,7 @@ greater end-user participation. We currently have a number of successful goods a
 
 <a name="preview"></a>
 ## App Preview
+![Image description](https://drive.google.com/file/d/17Ubmf6teM7vCYzTbhRjyjFQF3sFx3HKw/view?usp=sharing)
 <img src="![in iot lab acl3](https://user-images.githubusercontent.com/53121643/124862540-367a2480-dfd3-11eb-8445-ecb14d8a0b05.jpg)" width="250" height="350"/>
 <img src="![in iot lab acl4](https://user-images.githubusercontent.com/53121643/124862562-4560d700-dfd3-11eb-9393-1fc372bd45d6.jpg)" width="250" height="350"/>
 <img src="![in iot lab acl1](https://user-images.githubusercontent.com/53121643/124862612-56114d00-dfd3-11eb-9203-38721da56bb1.jpg)" width="250" height="350"/>
