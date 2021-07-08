@@ -7,7 +7,6 @@ Welcome to Android Component Library
 ![GitHub last commit](https://img.shields.io/github/last-commit/iot-lab-kiit/Android-Components-Library)
 ![GitHub issues](https://img.shields.io/github/issues-raw/iot-lab-kiit/Android-Components-Library)
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/iot-lab-kiit/Android-Components-Library)
-![GitHub](https://img.shields.io/github/license/iot-lab-kiit/Android-Components-Library)
 [![Star on GitHub](https://img.shields.io/github/stars/iot-lab-kiit/Android-Components-Library.svg?style=social)](https://github.com/all-contributors/all-contributors/stargazers)
 
 
@@ -28,8 +27,12 @@ greater end-user participation. We currently have a number of successful goods a
 
 <a name="preview"></a>
 ## App Preview
-<img src="https://drive.google.com/file/d/17Ubmf6teM7vCYzTbhRjyjFQF3sFx3HKw/view?usp=sharing" width="250" height="350"/><img src="https://drive.google.com/file/d/1WOXJYQr0iLgJ4lYSUcPJUgleEI4ZFLJ3/view?usp=sharing" width="500" height="350"/>
-<img src="https://drive.google.com/file/d/1Uj3ZX6MIUhZylDFpusUn47ADG9xR6Vfj/view?usp=sharing" width="250" height="350"/><img src="https://drive.google.com/file/d/16kgn8ETpUxeb_rj4rmiV9l8ZjcTRSwIp/view?usp=sharing" width="500" height="350"/>
+<img src="![in iot lab acl3](https://user-images.githubusercontent.com/53121643/124862540-367a2480-dfd3-11eb-8445-ecb14d8a0b05.jpg)
+" width="250" height="350"/><img src="![in iot lab acl4](https://user-images.githubusercontent.com/53121643/124862562-4560d700-dfd3-11eb-9393-1fc372bd45d6.jpg)
+" width="500" height="350"/>
+<img src="![in iot lab acl1](https://user-images.githubusercontent.com/53121643/124862612-56114d00-dfd3-11eb-9203-38721da56bb1.jpg)
+" width="250" height="350"/><img src="![in iot lab acl2](https://user-images.githubusercontent.com/53121643/124862614-57db1080-dfd3-11eb-9cf5-bbc2c0497f51.jpg)
+" width="500" height="350"/>
 
 
 <a name="contents"></a>
