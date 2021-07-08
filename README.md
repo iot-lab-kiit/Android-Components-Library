@@ -13,7 +13,7 @@ Further updates will be available soon.
 
 <a name="about_developers"></a>
 ## About IoT Labs,KIIT
-This open-source project has been made by the dedicated team of students under <a herf="https://iotkiit.in/">`IoT Labs,KIIT`</a>.
+This open-source project has been made by the dedicated team of students under <a herf="https://iotkiit.in/">IoT Labs,KIIT</a>.
 `IoT Lab at KIIT` is a group of committed students who work under the guidance of a group of capable and supportive teachers who guide us through each phase and stage. 
 `IoT Lab` is a research forum that examines the possibilities of crowdsourcing and the Internet of Things for transdisciplinary research and initiatives that involve 
 greater end-user participation. We currently have a number of successful goods and prototypes. We also provide web development and app development services.
