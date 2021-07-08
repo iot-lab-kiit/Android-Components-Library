@@ -3,6 +3,14 @@
 
 Welcome to Android Component Library
 
+![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/iot-lab-kiit/Android-Components-Library?include_prereleases)
+![GitHub last commit](https://img.shields.io/github/last-commit/iot-lab-kiit/Android-Components-Library)
+![GitHub issues](https://img.shields.io/github/issues-raw/iot-lab-kiit/Android-Components-Library)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/iot-lab-kiit/Android-Components-Library)
+![GitHub](https://img.shields.io/github/license/iot-lab-kiit/Android-Components-Library)
+[![Star on GitHub](https://img.shields.io/github/stars/iot-lab-kiit/Android-Components-Library.svg?style=social)](https://github.com/all-contributors/all-contributors/stargazers)
+
+
 
 <a name="about"></a>
 ## About The App
@@ -51,6 +59,8 @@ git clone https://github.com/iot-lab-kiit/Android-Components-Library.git
 3.Send us a Pull Request discribing about the component you have added.
 
 `Note -` Adding a component that is alreade listed in the app is not allowed.
+
+[Back to Start](#title)
 
 <a name="license"></a>
 ## LICENSE
