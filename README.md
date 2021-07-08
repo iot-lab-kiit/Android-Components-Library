@@ -27,11 +27,10 @@ greater end-user participation. We currently have a number of successful goods a
 
 <a name="preview"></a>
 ## App Preview
-<img src="https://github.com/nks102000/Android-Components-Library/blob/main/Preview/in.iot.lab.acl1.jpg?raw=true" width="250" height="350"/>
-![in iot lab acl4](https://user-images.githubusercontent.com/53121643/124862562-4560d700-dfd3-11eb-9393-1fc372bd45d6.jpg)
-<img src="![in iot lab acl4](https://user-images.githubusercontent.com/53121643/124862562-4560d700-dfd3-11eb-9393-1fc372bd45d6.jpg)" width="250" height="350"/>
-<img src="![in iot lab acl1](https://user-images.githubusercontent.com/53121643/124862612-56114d00-dfd3-11eb-9203-38721da56bb1.jpg)" width="250" height="350"/>
-<img src="![in iot lab acl2](https://user-images.githubusercontent.com/53121643/124862614-57db1080-dfd3-11eb-9cf5-bbc2c0497f51.jpg)" width="250" height="350"/>
+<img src="https://github.com/nks102000/Android-Components-Library/blob/main/Preview/in.iot.lab.acl3.jpg?raw=true" width="250" height="400"/>
+<img src="https://github.com/nks102000/Android-Components-Library/blob/main/Preview/in.iot.lab.acl4.jpg?raw=true" width="250" height="400"/>
+<img src="https://github.com/nks102000/Android-Components-Library/blob/main/Preview/in.iot.lab.acl1.jpg?raw=true" width="250" height="400"/>
+<img src="https://github.com/nks102000/Android-Components-Library/blob/main/Preview/in.iot.lab.acl2.jpg?raw=true)" width="250" height="400"/>
 
 
 <a name="contents"></a>
