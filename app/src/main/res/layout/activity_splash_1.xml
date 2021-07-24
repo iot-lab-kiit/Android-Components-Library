@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -8,28 +8,33 @@
     tools:context="in.iot.lab.acl.splash.Splash_1">
 
     <ImageView
+        android:id="@+id/logo"
         android:layout_width="200dp"
         android:layout_height="200dp"
-        android:src="@drawable/acl_logo"
         android:layout_centerHorizontal="true"
-
-        android:layout_marginTop="100dp"
-        android:id="@+id/logo"
+        android:layout_marginTop="118dp"
+        android:contentDescription="app logo"
         android:padding="20dp"
-        android:contentDescription="app logo" />
+        android:src="@drawable/acl_logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
+        android:id="@+id/app_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/logo"
         android:layout_alignParentBottom="true"
-        android:textColor="@color/text_main"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="371dp"
         android:text="@string/app_name"
+        android:textColor="@color/text_main"
+        android:layout_marginTop="16dp"
+        android:textSize="24sp"
         android:textStyle="bold"
-        android:id="@+id/app_name"
-        android:textSize="30sp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -37,22 +42,27 @@
         android:layout_below="@+id/app_name"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="-120dp"
+        android:text="From"
+        android:layout_marginBottom="8dp"
         android:textColor="@color/text_main"
-        android:layout_marginBottom="70dp"
-        android:textStyle="normal"
         android:textSize="20sp"
-        android:text="From" />
+        android:textStyle="normal"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
+        android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/Developed_BY"
         android:layout_alignParentBottom="true"
-        android:textColor="@color/text_main"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="40dp"
+        android:text="@string/Developed_BY"
+        android:layout_marginBottom="24dp"
+        android:textColor="@color/text_main"
         android:textSize="30sp"
-        />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
-</RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
