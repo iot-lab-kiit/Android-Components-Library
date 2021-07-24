@@ -59,6 +59,8 @@ class Rv_Sub_grp_button : Fragment(), RvClickHandler {
             getString(R.string.group_button_switch)->navController.navigate(R.id.action_rv_Sub_grp_button_to_switchFrag)
             getString(R.string.group_button_checkbox)->navController.navigate(R.id.action_rv_Sub_grp_button_to_checkboxFrag)
             getString(R.string.group_button_floating_action)->navController.navigate(R.id.action_rv_Sub_grp_button_to_floatingActionButtonFrag)
+            getString(R.string.group_button_chips)->navController.navigate(R.id.action_rv_Sub_grp_button_to_chipFrag)
+
         }
     }
 
