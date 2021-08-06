@@ -89,12 +89,14 @@
     <string name="group_derived_image_switcher">Image Switcher</string>
     <string name="group_derived_text_switcher">Text Switcher</string>
     <string name="group_derived_alert_dialog">Alert Dialog</string>
+    <string name="group_derived_time_picker">Time Picker</string>
 
     <string-array name="derived_component_data">
         <item>@string/group_derived_auto_complete_text_view</item>
         <item>@string/group_derived_image_switcher</item>
         <item>@string/group_derived_text_switcher</item>
         <item>@string/group_derived_alert_dialog</item>
+        <item>@string/group_derived_time_picker</item>
     </string-array>
 
 
@@ -103,6 +105,7 @@
         <item>"@drawable/image_switch"</item>
         <item>"@drawable/text_switch"</item>
         <item>"@drawable/alert"</item>
+        <item>"@drawable/time_picker"</item>
     </string-array>
 
 

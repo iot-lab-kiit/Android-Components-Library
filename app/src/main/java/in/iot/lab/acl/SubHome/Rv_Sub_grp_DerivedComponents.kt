@@ -63,6 +63,7 @@ class Rv_Sub_grp_DerivedComponents : Fragment(), RvClickHandler {
             getString(R.string.group_derived_image_switcher)->navController.navigate(R.id.action_rv_Sub_grp_DerivedComponents_to_imageSwitcherFrag)
             getString(R.string.group_derived_text_switcher)->navController.navigate(R.id.action_rv_Sub_grp_DerivedComponents_to_textSwitcherFrag)
             getString(R.string.group_derived_alert_dialog)->navController.navigate(R.id.action_rv_Sub_grp_DerivedComponents_to_alertDialogFrag)
+            getString(R.string.group_derived_time_picker)->navController.navigate(R.id.action_rv_Sub_grp_DerivedComponents_to_timePickerFrag)
         }
 
     }

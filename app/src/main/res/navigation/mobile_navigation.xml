@@ -127,6 +127,9 @@
         <action
             android:id="@+id/action_rv_Sub_grp_DerivedComponents_to_alertDialogFrag"
             app:destination="@id/alertDialogFrag" />
+        <action
+            android:id="@+id/action_rv_Sub_grp_DerivedComponents_to_timePickerFrag"
+            app:destination="@id/timePickerFrag" />
     </fragment>
     <fragment
         android:id="@+id/rv_Sub_grp_Layouts"
@@ -382,4 +385,9 @@
         android:name="in.iot.lab.acl.RecyclerViewFrag"
         android:label="fragment_recycler_view"
         tools:layout="@layout/fragment_recycler_view" />
+    <fragment
+        android:id="@+id/timePickerFrag"
+        android:name="in.iot.lab.acl.derivedComponent.TimePickerFrag"
+        android:label="fragment_time_picker"
+        tools:layout="@layout/fragment_time_picker" />
 </navigation>
