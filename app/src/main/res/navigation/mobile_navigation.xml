@@ -34,7 +34,7 @@
         android:id="@+id/advancedFragment"
         android:name="in.iot.lab.acl.AdvancedFragment"
         android:label="fragment_advanced"
-        tools:layout="@layout/fragment_advanced" >
+        tools:layout="@layout/fragment_advanced">
         <action
             android:id="@+id/action_advancedFragment_to_fragment_adv__sub__lottie"
             app:destination="@id/fragment_adv__sub__lottie" />
@@ -85,12 +85,15 @@
         <action
             android:id="@+id/action_rv_Sub_grp_button_to_floatingActionButtonFrag"
             app:destination="@id/floatingActionButtonFrag" />
+        <action
+            android:id="@+id/action_rv_Sub_grp_button_to_chipFrag"
+            app:destination="@id/chipFrag" />
     </fragment>
     <fragment
         android:id="@+id/rv_Sub_grp_Containers"
         android:name="in.iot.lab.acl.SubHome.Rv_Sub_grp_Containers"
         android:label="fragment_rv__sub_grp__containers"
-        tools:layout="@layout/fragment_rv__sub_grp__containers" >
+        tools:layout="@layout/fragment_rv__sub_grp__containers">
         <action
             android:id="@+id/action_rv_Sub_grp_Containers_to_spinnerFrag"
             app:destination="@id/spinnerFrag" />
@@ -130,6 +133,9 @@
         <action
             android:id="@+id/action_rv_Sub_grp_DerivedComponents_to_timePickerFrag"
             app:destination="@id/timePickerFrag" />
+        <action
+            android:id="@+id/action_rv_Sub_grp_DerivedComponents_to_snackBarFrag"
+            app:destination="@+id/snackBarFrag" />
     </fragment>
     <fragment
         android:id="@+id/rv_Sub_grp_Layouts"
@@ -390,4 +396,14 @@
         android:name="in.iot.lab.acl.derivedComponent.TimePickerFrag"
         android:label="fragment_time_picker"
         tools:layout="@layout/fragment_time_picker" />
+    <fragment
+        android:id="@+id/snackBarFrag"
+        android:name="in.iot.lab.acl.derivedComponent.SnackBarFrag"
+        android:label="fragment_snack_bar"
+        tools:layout="@layout/fragment_snack_bar" />
+    <fragment
+        android:id="@+id/chipFrag"
+        android:name="in.iot.lab.acl.button.ChipFrag"
+        android:label="fragment_chip"
+        tools:layout="@layout/fragment_chip" />
 </navigation>

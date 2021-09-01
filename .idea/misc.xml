@@ -3,12 +3,22 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+<<<<<<< HEAD
         <entry key="app/src/main/res/layout/fragment_alert_dialog.xml" value="0.2546875" />
         <entry key="app/src/main/res/layout/fragment_time_picker.xml" value="0.2546875" />
       </map>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+=======
+        <entry key="app/src/main/res/layout/fragment_adv__sub___confetti.xml" value="0.28125" />
+        <entry key="app/src/main/res/layout/fragment_adv__sub__lottie.xml" value="0.28125" />
+        <entry key="app/src/main/res/layout/fragment_rv__sub_grp__derived_components.xml" value="0.28125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+>>>>>>> ad18bad75eac4e9fc6e45a8ecabf888bfdb6e058
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
