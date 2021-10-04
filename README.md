@@ -44,6 +44,7 @@ git clone https://github.com/Your-username/Android-Components-Library.git
 
 `Note -` Adding a component that is alreade listed in the app with minor changes is not allowed.
 
+<a name="tasks"></a>
 ## Choose from these Tasks
 1.Adding new UI components of your choice (which is not already present).
 
@@ -75,6 +76,7 @@ greater end-user participation. We currently have a number of successful goods a
 - [About Iot Labs,KIIT ](#about_developers)
 - [App Preview ](#preview)
 - [Installation ](#play)
+- [Tasks](#tasks)
 - [Steps to Contribute ](#contribute)
 - [License ](#license)
 
