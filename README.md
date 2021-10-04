@@ -10,12 +10,51 @@ Welcome to Android Component Library
 [![Star on GitHub](https://img.shields.io/github/stars/iot-lab-kiit/Android-Components-Library.svg?style=social)](https://github.com/all-contributors/all-contributors/stargazers)
 
 
-
 <a name="about"></a>
 ## About The App
 `Android Component Library` is an Open Source project brought to you by `Iot Labs,KIIT` and it brings you easy and optimized visuals for the explanation of the code. 
 It’s an android app built using all the UI components. In this, we have visually explained the code using UI components and all the code is available in Kotlin. 
 Further updates will be available soon.
+
+
+## What is Hacktoberfest?
+A month-long celebration from October 1st - 31st sponsored by [Digital Ocean](https://hacktoberfest.digitalocean.com/) and [GitHub](https://github.com/blog/2433-celebrate-open-source-this-october-with-hacktoberfest) to get people involved in [Open Source](https://github.com/open-source). Create your very first pull request to any public repository on GitHub and contribute to the open source developer community.
+
+[https://hacktoberfest.digitalocean.com/](https://hacktoberfest.digitalocean.com/)
+
+### ⭐This repository will be open to contribute under hacktoberfest from October 9, 2021
+
+<a name="contribute"></a>
+## Steps To Contribute
+
+1.Fork the repo on your github profile from the fork button on top right corner.
+
+2.Clone the forked repository on your machine.
+```bash
+git clone https://github.com/Your-username/Android-Components-Library.git
+```
+
+3.Decide the best suiting sub-category for your component under basic or advanced
+
+4.Go to string.xml file and add the name and the corresponding icon.
+
+5.Create the fragment with a demo of the component and the related codes as done in other fragments.
+
+6.Send us a Pull Request discribing about the component you have added.
+
+`Note -` Adding a component that is alreade listed in the app with minor changes is not allowed.
+
+<a name="tasks"></a>
+## Choose from these Tasks
+1.Adding new UI components of your choice (which is not already present).
+
+2.Creating a simple copy button to directly copy the code snippet to your clipboard. 
+
+3.Any possible UI updates.
+
+4.Refer to [issues](https://github.com/iot-lab-kiit/Android-Components-Library/issues) for more tasks.
+
+5.Any other useful updates that comes to your mind.
 
 
 <a name="about_developers"></a>
@@ -37,26 +76,13 @@ greater end-user participation. We currently have a number of successful goods a
 - [About Iot Labs,KIIT ](#about_developers)
 - [App Preview ](#preview)
 - [Installation ](#play)
+- [Tasks](#tasks)
 - [Steps to Contribute ](#contribute)
 - [License ](#license)
 
 <a name="play"></a>
 ## Installation
 https://play.google.com/store/apps/details?id=in.iot.lab.acl
-
-<a name="contribute"></a>
-## Steps To Contribute
-
-1.Clone this Repo to your local system
-```bash
-git clone https://github.com/iot-lab-kiit/Android-Components-Library.git
-```
-
-2.Add the component data in the correct place and make the fragment for your components, where update the sample ui and the .xml and Kotlin code in the fragment.
-
-3.Send us a Pull Request discribing about the component you have added.
-
-`Note -` Adding a component that is alreade listed in the app is not allowed.
 
 [Back to Start](#title)
 
