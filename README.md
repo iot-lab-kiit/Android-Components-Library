@@ -51,7 +51,9 @@ git clone https://github.com/iot-lab-kiit/Android-Components-Library.git
 
 3.Any possible UI updates.
 
-4.Any other useful updates that comes to your mind.
+4.Refer to [issues](https://github.com/iot-lab-kiit/Android-Components-Library/issues) for more tasks.
+
+5.Any other useful updates that comes to your mind.
 
 
 <a name="about_developers"></a>
