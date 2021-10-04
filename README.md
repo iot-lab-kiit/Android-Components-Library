@@ -24,23 +24,23 @@ A month-long celebration from October 1st - 31st sponsored by [Digital Ocean](ht
 
 ### ⭐This repository will be open to contribute under hacktoberfest from October 9, 2021
 
-## How to contribute to this project
-
 <a name="contribute"></a>
 ## Steps To Contribute
 
-1.Clone this Repo to your local system
+1.Fork the repo on your github profile from the fork button on top right corner.
+
+2.Clone the forked repository on your machine.
 ```bash
-git clone https://github.com/iot-lab-kiit/Android-Components-Library.git
+git clone https://github.com/Your-username/Android-Components-Library.git
 ```
 
-2.Decide the best suiting sub-category for your component under basic or advanced
+3.Decide the best suiting sub-category for your component under basic or advanced
 
-3.Go to string.xml file and add the name and the corresponding icon.
+4.Go to string.xml file and add the name and the corresponding icon.
 
-4.Create the fragment with a demo of the component and the related codes as done in other fragments.
+5.Create the fragment with a demo of the component and the related codes as done in other fragments.
 
-5.Send us a Pull Request discribing about the component you have added.
+6.Send us a Pull Request discribing about the component you have added.
 
 `Note -` Adding a component that is alreade listed in the app with minor changes is not allowed.
 
