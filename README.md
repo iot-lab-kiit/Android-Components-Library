@@ -29,7 +29,7 @@ A month-long celebration from October 1st - 31st sponsored by [Digital Ocean](ht
 
 1.Fork the repo on your github profile from the fork button on top right corner.
 
-2.Clone the forked repository on your machine.
+2.Clone the forked repository on your machine
 ```bash
 git clone https://github.com/Your-username/Android-Components-Library.git
 ```
