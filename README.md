@@ -36,7 +36,7 @@ git clone https://github.com/Your-username/Android-Components-Library.git
 
 3.Decide the best suiting sub-category for your component under basic or advanced
 
-4.Go to string.xml file and add the name and the corresponding icon.
+4.Go to string.xml file and add the name and the corresponding icon.(You can get icon from [here](https://www.flaticon.com/).)
 
 5.Create the fragment with a demo of the component and the related codes as done in other fragments.
 
