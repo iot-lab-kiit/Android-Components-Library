@@ -41,6 +41,9 @@
         <action
             android:id="@+id/action_advancedFragment_to_fragment_adv__sub__Confetti"
             app:destination="@id/fragment_adv__sub__Confetti" />
+        <action
+            android:id="@+id/action_advancedFragment_to_fragment_adv__sub__CountryCodePicker"
+            app:destination="@id/fragment_adv__sub__CountryCodePicker" />
     </fragment>
     <fragment
         android:id="@+id/dashboardFragment"
@@ -406,4 +409,9 @@
         android:name="in.iot.lab.acl.button.ChipFrag"
         android:label="fragment_chip"
         tools:layout="@layout/fragment_chip" />
+    <fragment
+        android:id="@+id/fragment_adv__sub__CountryCodePicker"
+        android:name="in.iot.lab.acl.SubAdvanced.fragment_adv__sub__CountryCodePicker"
+        android:label="fragment_adv__sub___country_code_picker"
+        tools:layout="@layout/fragment_adv__sub___country_code_picker" />
 </navigation>

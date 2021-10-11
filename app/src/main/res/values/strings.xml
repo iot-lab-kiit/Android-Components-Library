@@ -227,17 +227,20 @@
     //Advanced Data
     <string name="Lotte_view">Lotte View</string>
     <string name="Confetti_view">Confetti View</string>
-
+    <string name="Country_Code_Picker">Country Code Picker</string>
 
     <string-array name="advanced_data">
         <item>@string/Lotte_view</item>
         <item>@string/Confetti_view</item>
+        <item>@string/Country_Code_Picker</item>
     </string-array>
 
     <string-array name="advanced_logo">
         <item>"@drawable/text"</item>
         <item>"@drawable/button"</item>
+        <item>"@drawable/ccp"</item>
     </string-array>
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="lottie_def">Lottie is a mobile library for Android and iOS that parses Adobe After Effects animations exported as json with Bodymovin and renders them natively on mobile!</string>

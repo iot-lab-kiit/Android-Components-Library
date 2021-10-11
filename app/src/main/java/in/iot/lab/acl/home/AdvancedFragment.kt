@@ -44,6 +44,7 @@ class AdvancedFragment : Fragment(),RvClickHandler {
         when(str){
             getString(R.string.Lotte_view)->navController.navigate(R.id.action_advancedFragment_to_fragment_adv__sub__lottie)
             getString(R.string.Confetti_view)->navController.navigate(R.id.action_advancedFragment_to_fragment_adv__sub__Confetti)
+            getString(R.string.Country_Code_Picker)->navController.navigate(R.id.action_advancedFragment_to_fragment_adv__sub__CountryCodePicker)
         }
     }
 

@@ -65,4 +65,7 @@ dependencies {
     //Confetti
     implementation 'com.github.jinatonic.confetti:confetti:1.1.2'
     implementation 'nl.dionsegijn:konfetti:1.3.2'
+
+    // Country Code Picker
+    implementation 'com.hbb20:ccp:2.5.4'
 }
