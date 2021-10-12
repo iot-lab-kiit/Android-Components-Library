@@ -44,6 +44,9 @@
         <action
             android:id="@+id/action_advancedFragment_to_fragment_adv__sub__CountryCodePicker"
             app:destination="@id/fragment_adv__sub__CountryCodePicker" />
+        <action
+            android:id="@+id/action_advancedFragment_to_fragment_adv__sub__CircleMenuView"
+            app:destination="@id/fragment_adv__sub__CircleMenuView" />
     </fragment>
     <fragment
         android:id="@+id/dashboardFragment"
@@ -414,4 +417,9 @@
         android:name="in.iot.lab.acl.SubAdvanced.fragment_adv__sub__CountryCodePicker"
         android:label="fragment_adv__sub___country_code_picker"
         tools:layout="@layout/fragment_adv__sub___country_code_picker" />
+    <fragment
+        android:id="@+id/fragment_adv__sub__CircleMenuView"
+        android:name="in.iot.lab.acl.SubAdvanced.fragment_adv__sub__CircleMenuView"
+        android:label="fragment_adv__sub___circle_menu_view"
+        tools:layout="@layout/fragment_adv__sub___circle_menu_view" />
 </navigation>
