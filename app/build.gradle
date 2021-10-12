@@ -68,4 +68,7 @@ dependencies {
 
     // Country Code Picker
     implementation 'com.hbb20:ccp:2.5.4'
+
+    // Circle Menu
+    implementation 'com.ramotion.circlemenu:circle-menu:0.3.2'
 }
