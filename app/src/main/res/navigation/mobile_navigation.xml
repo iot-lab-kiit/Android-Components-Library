@@ -47,6 +47,9 @@
         <action
             android:id="@+id/action_advancedFragment_to_fragment_adv__sub__CircleMenuView"
             app:destination="@id/fragment_adv__sub__CircleMenuView" />
+        <action
+            android:id="@+id/action_advancedFragment_to_fragment_adv__sub__TimeRangePicker"
+            app:destination="@id/fragment_adv__sub__TimeRangePicker" />
     </fragment>
     <fragment
         android:id="@+id/dashboardFragment"
@@ -422,4 +425,9 @@
         android:name="in.iot.lab.acl.SubAdvanced.fragment_adv__sub__CircleMenuView"
         android:label="fragment_adv__sub___circle_menu_view"
         tools:layout="@layout/fragment_adv__sub___circle_menu_view" />
+    <fragment
+        android:id="@+id/fragment_adv__sub__TimeRangePicker"
+        android:name="in.iot.lab.acl.SubAdvanced.fragment_adv__sub__TimeRangePicker"
+        android:label="fragment_adv__sub___time_range_picker"
+        tools:layout="@layout/fragment_adv__sub___time_range_picker" />
 </navigation>

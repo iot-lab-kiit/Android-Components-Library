@@ -71,4 +71,8 @@ dependencies {
 
     // Circle Menu
     implementation 'com.ramotion.circlemenu:circle-menu:0.3.2'
+
+    // Time Range Picker
+    implementation 'nl.joery.timerangepicker:timerangepicker:1.0.0'
+
 }
