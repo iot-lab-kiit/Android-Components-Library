@@ -37,6 +37,26 @@ class fragment_adv__sub__CircleMenuView : Fragment() {
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView" />
             ```
+            #Inside res/values/buttons.xml
+            ```xml
+            <?xml version="1.0" encoding="utf-8"?>
+            <resources>
+                <array name="icons">
+                    <item>@drawable/ic_baseline_create_24</item>
+                    <item>@drawable/ic_baseline_person_24</item>
+                    <item>@drawable/ic_baseline_favorite_24</item>
+                    <item>@drawable/ic_baseline_phone_24</item>
+                    <item>@drawable/ic_baseline_settings_24</item>
+                </array>
+                <array name="colors">
+                    <item>@android:color/holo_blue_light</item>
+                    <item>@android:color/holo_green_dark</item>
+                    <item>@android:color/holo_red_light</item>
+                    <item>@android:color/holo_purple</item>
+                    <item>@android:color/holo_orange_light</item>
+                </array>
+            </resources>
+            ```
             #Gradle
             ```
             implementation 'com.ramotion.circlemenu:circle-menu:0.3.2'
