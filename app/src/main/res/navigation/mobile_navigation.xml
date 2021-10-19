@@ -50,6 +50,9 @@
         <action
             android:id="@+id/action_advancedFragment_to_fragment_adv__sub__TimeRangePicker"
             app:destination="@id/fragment_adv__sub__TimeRangePicker" />
+        <action
+            android:id="@+id/action_advancedFragment_to_fragment_adv__sub__MotionToast"
+            app:destination="@id/fragment_adv__sub__MotionToast" />
     </fragment>
     <fragment
         android:id="@+id/dashboardFragment"
@@ -430,4 +433,9 @@
         android:name="in.iot.lab.acl.SubAdvanced.fragment_adv__sub__TimeRangePicker"
         android:label="fragment_adv__sub___time_range_picker"
         tools:layout="@layout/fragment_adv__sub___time_range_picker" />
+    <fragment
+        android:id="@+id/fragment_adv__sub__MotionToast"
+        android:name="in.iot.lab.acl.SubAdvanced.fragment_adv__sub__MotionToast"
+        android:label="fragment_adv__sub___motion_toast"
+        tools:layout="@layout/fragment_adv__sub___motion_toast" />
 </navigation>

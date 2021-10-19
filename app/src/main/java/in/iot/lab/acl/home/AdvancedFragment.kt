@@ -47,6 +47,7 @@ class AdvancedFragment : Fragment(),RvClickHandler {
             getString(R.string.Country_Code_Picker)->navController.navigate(R.id.action_advancedFragment_to_fragment_adv__sub__CountryCodePicker)
             getString(R.string.Circle_Menu_View)->navController.navigate(R.id.action_advancedFragment_to_fragment_adv__sub__CircleMenuView)
             getString(R.string.Time_Range_Picker)->navController.navigate(R.id.action_advancedFragment_to_fragment_adv__sub__TimeRangePicker)
+            getString(R.string.Motion_Toast)->navController.navigate(R.id.action_advancedFragment_to_fragment_adv__sub__MotionToast)
         }
     }
 

@@ -230,6 +230,7 @@
     <string name="Country_Code_Picker">Country Code Picker</string>
     <string name="Circle_Menu_View">Circle Menu View</string>
     <string name="Time_Range_Picker">Time Range Picker</string>
+    <string name="Motion_Toast">Motion Toast</string>
 
     <string-array name="advanced_data">
         <item>@string/Lotte_view</item>
@@ -237,6 +238,7 @@
         <item>@string/Country_Code_Picker</item>
         <item>@string/Circle_Menu_View</item>
         <item>@string/Time_Range_Picker</item>
+        <item>@string/Motion_Toast</item>
     </string-array>
 
     <string-array name="advanced_logo">
@@ -245,6 +247,7 @@
         <item>"@drawable/ccp"</item>
         <item>"@drawable/circle_menu"</item>
         <item>"@drawable/time_range"</item>
+        <item>"@drawable/motion_toast"</item>
     </string-array>
 
     <!-- TODO: Remove or change this placeholder text -->

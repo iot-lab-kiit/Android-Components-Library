@@ -75,4 +75,7 @@ dependencies {
     // Time Range Picker
     implementation 'nl.joery.timerangepicker:timerangepicker:1.0.0'
 
+    // Motion Toast
+    implementation 'com.github.Spikeysanju:MotionToast:1.4'
+
 }
