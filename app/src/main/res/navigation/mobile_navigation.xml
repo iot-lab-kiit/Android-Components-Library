@@ -430,4 +430,9 @@
         android:name="in.iot.lab.acl.SubAdvanced.fragment_adv__sub__TimeRangePicker"
         android:label="fragment_adv__sub___time_range_picker"
         tools:layout="@layout/fragment_adv__sub___time_range_picker" />
+    <fragment
+        android:id="@+id/backendFragment"
+        android:name="in.iot.lab.acl.home.BackendFragment"
+        android:label="fragment_backend"
+        tools:layout="@layout/fragment_backend" />
 </navigation>

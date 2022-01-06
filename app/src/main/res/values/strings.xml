@@ -3,6 +3,7 @@
     <string name="app_name">Android Component Library</string>
     <string name="title_basics">Basics</string>
     <string name="title_advance">Advance</string>
+    <string name="title_backend">Backend</string>
     <string name="title_AboutUs">About Us</string>
     <string name="Developed_BY">IoT Lab, KIIT</string>
     <!-- TODO: Remove or change this placeholder text -->
