@@ -12,9 +12,6 @@ import io.noties.markwon.Markwon
 class EditText : Fragment() {
 
     lateinit var codeView: TextView
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-    }
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,

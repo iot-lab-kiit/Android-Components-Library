@@ -66,7 +66,7 @@ class ImageSwitcherFrag : Fragment() {
 
         imgbtnnxt.setOnClickListener {
             index = if (index + 1 < imageswitchId.size) index +1 else 0
-            imageSwitcher?.setImageResource(imageswitchId[index])
+            imageSwitcher.setImageResource(imageswitchId[index])
         }
 
 

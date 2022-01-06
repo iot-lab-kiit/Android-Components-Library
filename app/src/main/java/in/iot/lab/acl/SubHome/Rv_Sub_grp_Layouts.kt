@@ -18,15 +18,9 @@ import java.util.*
 
 class Rv_Sub_grp_Layouts : Fragment(), RvClickHandler {
     var recyclerView: RecyclerView? = null
-    var fragView: FrameLayout? = null
     var groups = listOf<String>()
     var logo = listOf<String>()
     lateinit var groupRvAdapters: GroupRvAdapters
-
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-
-    }
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
