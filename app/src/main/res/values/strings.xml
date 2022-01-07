@@ -248,6 +248,17 @@
         <item>"@drawable/time_range"</item>
     </string-array>
 
+    //Backend Data
+    <string name="Alarm_Manager">Alarm Manager</string>
+
+    <string-array name="backend_data">
+        <item>@string/Alarm_Manager</item>
+    </string-array>
+
+    <string-array name="backend_logo">
+        <item>"@drawable/alarm_manager"</item>
+    </string-array>
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="lottie_def">Lottie is a mobile library for Android and iOS that parses Adobe After Effects animations exported as json with Bodymovin and renders them natively on mobile!</string>

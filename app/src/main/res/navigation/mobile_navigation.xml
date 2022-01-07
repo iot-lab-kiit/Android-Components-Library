@@ -52,6 +52,15 @@
             app:destination="@id/fragment_adv__sub__TimeRangePicker" />
     </fragment>
     <fragment
+        android:id="@+id/backendFragment"
+        android:name="in.iot.lab.acl.home.BackendFragment"
+        android:label="fragment_backend"
+        tools:layout="@layout/fragment_backend" >
+        <action
+            android:id="@+id/action_backendFragment_to_fragment_backend__sub__AlarmManager"
+            app:destination="@id/fragment_backend__sub__AlarmManager" />
+    </fragment>
+    <fragment
         android:id="@+id/dashboardFragment"
         android:name="in.iot.lab.acl.DashboardFragment"
         android:label="fragment_dashboard"
@@ -431,8 +440,8 @@
         android:label="fragment_adv__sub___time_range_picker"
         tools:layout="@layout/fragment_adv__sub___time_range_picker" />
     <fragment
-        android:id="@+id/backendFragment"
-        android:name="in.iot.lab.acl.home.BackendFragment"
-        android:label="fragment_backend"
-        tools:layout="@layout/fragment_backend" />
+        android:id="@+id/fragment_backend__sub__AlarmManager"
+        android:name="in.iot.lab.acl.SubBackend.fragment_backend__sub__AlarmManager"
+        android:label="fragment_backend__sub___alarm_manager"
+        tools:layout="@layout/fragment_backend__sub___alarm_manager" />
 </navigation>
