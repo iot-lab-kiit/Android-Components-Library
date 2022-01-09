@@ -250,13 +250,16 @@
 
     //Backend Data
     <string name="Alarm_Manager">Alarm Manager</string>
+    <string name="Explicit_Intent">Explicit Intent</string>
 
     <string-array name="backend_data">
         <item>@string/Alarm_Manager</item>
+        <item>@string/Explicit_Intent</item>
     </string-array>
 
     <string-array name="backend_logo">
         <item>"@drawable/alarm_manager"</item>
+        <item>"@drawable/explicit_intent"</item>
     </string-array>
 
     <!-- TODO: Remove or change this placeholder text -->

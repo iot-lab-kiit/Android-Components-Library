@@ -59,6 +59,9 @@
         <action
             android:id="@+id/action_backendFragment_to_fragment_backend__sub__AlarmManager"
             app:destination="@id/fragment_backend__sub__AlarmManager" />
+        <action
+            android:id="@+id/action_backendFragment_to_fragment_backend__sub__ExplicitIntent"
+            app:destination="@id/fragment_backend__sub__ExplicitIntent" />
     </fragment>
     <fragment
         android:id="@+id/dashboardFragment"
@@ -444,4 +447,9 @@
         android:name="in.iot.lab.acl.SubBackend.fragment_backend__sub__AlarmManager"
         android:label="fragment_backend__sub___alarm_manager"
         tools:layout="@layout/fragment_backend__sub___alarm_manager" />
+    <fragment
+        android:id="@+id/fragment_backend__sub__ExplicitIntent"
+        android:name="in.iot.lab.acl.SubBackend.fragment_backend__sub__ExplicitIntent"
+        android:label="fragment_backend__sub___explicit_intent"
+        tools:layout="@layout/fragment_backend__sub___explicit_intent" />
 </navigation>
