@@ -251,17 +251,20 @@
     //Backend Data
     <string name="Alarm_Manager">Alarm Manager</string>
     <string name="Explicit_Intent">Explicit Intent</string>
+    <string name="Implicit_Intent">Implicit Intent</string>
     <string name="Coroutines">Coroutines</string>
 
     <string-array name="backend_data">
         <item>@string/Alarm_Manager</item>
         <item>@string/Explicit_Intent</item>
+        <item>@string/Implicit_Intent</item>
         <item>@string/Coroutines</item>
     </string-array>
 
     <string-array name="backend_logo">
         <item>"@drawable/alarm_manager"</item>
         <item>"@drawable/explicit_intent"</item>
+        <item>"@drawable/implicit_intent"</item>
         <item>"@drawable/coroutines"</item>
     </string-array>
 

@@ -39,8 +39,9 @@ class BackendFragment : Fragment(), RvClickHandler {
         val str= groups[position]
         val navController=findNavController()
         when(str) {
-            getString(R.string.Alarm_Manager)->navController.navigate(R.id.action_backendFragment_to_fragment_backend__sub__AlarmManager)
             getString(R.string.Explicit_Intent)->navController.navigate(R.id.action_backendFragment_to_fragment_backend__sub__ExplicitIntent)
+            getString(R.string.Implicit_Intent)->navController.navigate(R.id.action_backendFragment_to_fragment_backend__sub__ImplicitIntent)
+            getString(R.string.Alarm_Manager)->navController.navigate(R.id.action_backendFragment_to_fragment_backend__sub__AlarmManager)
             getString(R.string.Coroutines)->navController.navigate(R.id.action_backendFragment_to_fragment_backend__sub__Coroutines)
         }
     }
