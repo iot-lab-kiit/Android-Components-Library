@@ -42,6 +42,13 @@ class fragment_backend__sub__Coroutines : Fragment() {
         }
 
         val md = """
+            #Basic Info
+            ```text
+            Coroutines are used for executing the code asynchronously on different threads to lighten up the burden from the main thread.
+            If required, more than one coroutine can also run on the same thread. This way, all the services and network calls can be done in background avoiding the UI blocking.
+            
+            NOTE: Please refer the documentation for more information.
+            ```
             #XML
             ```xml
             <TextView
