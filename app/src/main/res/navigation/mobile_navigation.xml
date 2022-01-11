@@ -62,6 +62,9 @@
         <action
             android:id="@+id/action_backendFragment_to_fragment_backend__sub__ExplicitIntent"
             app:destination="@id/fragment_backend__sub__ExplicitIntent" />
+        <action
+            android:id="@+id/action_backendFragment_to_fragment_backend__sub__Coroutines"
+            app:destination="@id/fragment_backend__sub__Coroutines" />
     </fragment>
     <fragment
         android:id="@+id/dashboardFragment"
@@ -452,4 +455,9 @@
         android:name="in.iot.lab.acl.SubBackend.fragment_backend__sub__ExplicitIntent"
         android:label="fragment_backend__sub___explicit_intent"
         tools:layout="@layout/fragment_backend__sub___explicit_intent" />
+    <fragment
+        android:id="@+id/fragment_backend__sub__Coroutines"
+        android:name="in.iot.lab.acl.SubBackend.fragment_backend__sub__Coroutines"
+        android:label="fragment_backend__sub___coroutines"
+        tools:layout="@layout/fragment_backend__sub___coroutines" />
 </navigation>

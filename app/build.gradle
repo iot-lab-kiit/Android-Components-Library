@@ -77,4 +77,7 @@ dependencies {
     // Time Range Picker
     implementation 'nl.joery.timerangepicker:timerangepicker:1.0.0'
 
+    //  Coroutines
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.0'
+
 }
