@@ -11,6 +11,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidComponentLibrary">
+        <receiver
+            android:name=".broadcastReceivers.AlarmReceiver"
+            android:enabled="true"
+            android:exported="true"></receiver>
+
         <activity android:name=".home.MainActivity" />
         <activity
             android:name=".splash.Splash_1"

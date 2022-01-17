@@ -6,26 +6,16 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.webkit.WebSettings
 import android.webkit.WebView
 import android.webkit.WebViewClient
 import android.widget.TextView
 import io.noties.markwon.Markwon
-import kotlinx.android.synthetic.main.fragment_web_view.*
 
 
 class WebViewFrag : Fragment() {
     lateinit var code: TextView
 
     @SuppressLint("SetJavaScriptEnabled")
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        web_View.webViewClient= WebViewClient()
-        web_View.apply {
-            loadUrl("https://www.google.com/")
-            settings.javaScriptEnabled=true
-        }
-    }
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -33,7 +23,13 @@ class WebViewFrag : Fragment() {
         // Inflate the layout for this fragment
         val myFragmentView = inflater.inflate(R.layout.fragment_web_view, container, false)
         code = myFragmentView.findViewById<TextView>(R.id.code)
+        val web_View = myFragmentView.findViewById<WebView>(R.id.web_View)
 
+        web_View.webViewClient= WebViewClient()
+        web_View.apply {
+            loadUrl("https://www.google.com/")
+            settings.javaScriptEnabled=true
+        }
 
         val md = """
     #XML

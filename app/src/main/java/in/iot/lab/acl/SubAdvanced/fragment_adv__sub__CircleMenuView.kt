@@ -8,7 +8,6 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import io.noties.markwon.Markwon
-import kotlinx.android.synthetic.main.fragment_adv__sub___circle_menu_view.*
 
 
 class fragment_adv__sub__CircleMenuView : Fragment() {

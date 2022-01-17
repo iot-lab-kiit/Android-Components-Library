@@ -3,6 +3,7 @@
     <string name="app_name">Android Component Library</string>
     <string name="title_basics">Basics</string>
     <string name="title_advance">Advance</string>
+    <string name="title_backend">Backend</string>
     <string name="title_AboutUs">About Us</string>
     <string name="Developed_BY">IoT Lab, KIIT</string>
     <!-- TODO: Remove or change this placeholder text -->
@@ -245,6 +246,26 @@
         <item>"@drawable/ccp"</item>
         <item>"@drawable/circle_menu"</item>
         <item>"@drawable/time_range"</item>
+    </string-array>
+
+    //Backend Data
+    <string name="Alarm_Manager">Alarm Manager</string>
+    <string name="Explicit_Intent">Explicit Intent</string>
+    <string name="Implicit_Intent">Implicit Intent</string>
+    <string name="Coroutines">Coroutines</string>
+
+    <string-array name="backend_data">
+        <item>@string/Alarm_Manager</item>
+        <item>@string/Explicit_Intent</item>
+        <item>@string/Implicit_Intent</item>
+        <item>@string/Coroutines</item>
+    </string-array>
+
+    <string-array name="backend_logo">
+        <item>"@drawable/alarm_manager"</item>
+        <item>"@drawable/explicit_intent"</item>
+        <item>"@drawable/implicit_intent"</item>
+        <item>"@drawable/coroutines"</item>
     </string-array>
 
     <!-- TODO: Remove or change this placeholder text -->

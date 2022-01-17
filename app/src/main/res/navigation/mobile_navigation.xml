@@ -52,6 +52,24 @@
             app:destination="@id/fragment_adv__sub__TimeRangePicker" />
     </fragment>
     <fragment
+        android:id="@+id/backendFragment"
+        android:name="in.iot.lab.acl.home.BackendFragment"
+        android:label="fragment_backend"
+        tools:layout="@layout/fragment_backend" >
+        <action
+            android:id="@+id/action_backendFragment_to_fragment_backend__sub__AlarmManager"
+            app:destination="@id/fragment_backend__sub__AlarmManager" />
+        <action
+            android:id="@+id/action_backendFragment_to_fragment_backend__sub__ExplicitIntent"
+            app:destination="@id/fragment_backend__sub__ExplicitIntent" />
+        <action
+            android:id="@+id/action_backendFragment_to_fragment_backend__sub__Coroutines"
+            app:destination="@id/fragment_backend__sub__Coroutines" />
+        <action
+            android:id="@+id/action_backendFragment_to_fragment_backend__sub__ImplicitIntent"
+            app:destination="@id/fragment_backend__sub__ImplicitIntent" />
+    </fragment>
+    <fragment
         android:id="@+id/dashboardFragment"
         android:name="in.iot.lab.acl.DashboardFragment"
         android:label="fragment_dashboard"
@@ -430,4 +448,24 @@
         android:name="in.iot.lab.acl.SubAdvanced.fragment_adv__sub__TimeRangePicker"
         android:label="fragment_adv__sub___time_range_picker"
         tools:layout="@layout/fragment_adv__sub___time_range_picker" />
+    <fragment
+        android:id="@+id/fragment_backend__sub__AlarmManager"
+        android:name="in.iot.lab.acl.SubBackend.fragment_backend__sub__AlarmManager"
+        android:label="fragment_backend__sub___alarm_manager"
+        tools:layout="@layout/fragment_backend__sub___alarm_manager" />
+    <fragment
+        android:id="@+id/fragment_backend__sub__ExplicitIntent"
+        android:name="in.iot.lab.acl.SubBackend.fragment_backend__sub__ExplicitIntent"
+        android:label="fragment_backend__sub___explicit_intent"
+        tools:layout="@layout/fragment_backend__sub___explicit_intent" />
+    <fragment
+        android:id="@+id/fragment_backend__sub__Coroutines"
+        android:name="in.iot.lab.acl.SubBackend.fragment_backend__sub__Coroutines"
+        android:label="fragment_backend__sub___coroutines"
+        tools:layout="@layout/fragment_backend__sub___coroutines" />
+    <fragment
+        android:id="@+id/fragment_backend__sub__ImplicitIntent"
+        android:name="in.iot.lab.acl.SubBackend.fragment_backend__sub__ImplicitIntent"
+        android:label="fragment_backend__sub___implicit_intent"
+        tools:layout="@layout/fragment_backend__sub___implicit_intent" />
 </navigation>

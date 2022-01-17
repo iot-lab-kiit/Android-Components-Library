@@ -18,7 +18,6 @@ import java.util.*
 
 class Rv_Sub_grp_widgets : Fragment(), RvClickHandler {
     var recyclerView: RecyclerView? = null
-    var fragView: FrameLayout? = null
     var groups = listOf<String>()
     var logo = listOf<String>()
     lateinit var groupRvAdapters: GroupRvAdapters

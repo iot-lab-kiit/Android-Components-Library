@@ -14,7 +14,6 @@ import io.noties.markwon.Markwon
 class ScrollViewFrag : Fragment() {
 
     lateinit var code: TextView
-    lateinit var spinner: Spinner
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?

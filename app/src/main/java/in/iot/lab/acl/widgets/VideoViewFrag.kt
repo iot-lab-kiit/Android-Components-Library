@@ -9,7 +9,6 @@ import android.view.ViewGroup
 import android.widget.MediaController
 import android.widget.TextView
 import io.noties.markwon.Markwon
-import kotlinx.android.synthetic.main.fragment_video_view.*
 
 
 

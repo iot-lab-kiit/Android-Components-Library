@@ -6,13 +6,10 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import io.noties.markwon.Markwon
-import kotlinx.android.synthetic.main.fragment_recycler_view.*
-import kotlinx.android.synthetic.main.fragment_recycler_view.view.*
 
 
 class RecyclerViewFrag : Fragment() {
@@ -34,10 +31,12 @@ class RecyclerViewFrag : Fragment() {
         // Inflate the layout for this fragment
         val myFragmentView = inflater.inflate(R.layout.fragment_recycler_view, container, false)
         code = myFragmentView.findViewById<TextView>(R.id.code)
-        myFragmentView.recyclerView.layoutManager=LinearLayoutManager(activity)
+        val recyclerView = myFragmentView.findViewById<RecyclerView>(R.id.recyclerView)
+
+        recyclerView.layoutManager=LinearLayoutManager(activity)
         val items= fetchData()
         val adapter= RecyclerAdapter(items)
-        myFragmentView.recyclerView.adapter= adapter
+        recyclerView.adapter= adapter
         val md = """
             RecyclerView is a ViewGroup added to the android studio as a successor of the GridView and ListView. It is an improvement on both of them and can be found in the latest v-7 support packages. It has been created to make possible construction of any lists with XML layouts as an item which can be customized vastly while improving on the efficiency of ListViews and GridViews. This improvement is achieved by recycling the views which are out of the visibility of the user. For example, if a user scrolled down to a position where items 4 and 5 are visible; items 1, 2, and 3 would be cleared from the memory to reduce memory consumption.
     #XML

@@ -5,7 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import `in` .iot.lab.acl.R
+import `in`.iot.lab.acl.R
 import android.widget.TextView
 import io.noties.markwon.Markwon
 

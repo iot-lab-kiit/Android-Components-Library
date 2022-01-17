@@ -12,6 +12,11 @@
         android:title="@string/title_advance" />
 
     <item
+        android:id="@+id/backendFragment"
+        android:icon="@drawable/backend_tab_icon"
+        android:title="@string/title_backend" />
+
+    <item
         android:id="@+id/dashboardFragment"
         android:icon="@drawable/dashboard_tab_icons"
         android:title="@string/title_AboutUs" />

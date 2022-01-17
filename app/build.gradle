@@ -1,7 +1,6 @@
 plugins {
     id 'com.android.application'
     id 'kotlin-android'
-    id 'kotlin-android-extensions'
     id 'kotlin-kapt'
 }
 
@@ -19,6 +18,9 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
+    buildFeatures {
+        viewBinding true
+    }
     buildTypes {
         release {
             minifyEnabled false
@@ -74,5 +76,8 @@ dependencies {
 
     // Time Range Picker
     implementation 'nl.joery.timerangepicker:timerangepicker:1.0.0'
+
+    //  Coroutines
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.0'
 
 }
